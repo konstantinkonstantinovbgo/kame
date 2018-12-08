@@ -643,8 +643,8 @@
             {{--<div class="col-lg-12">--}}
                 {{--<h1 class="text-white mb-20 font-weight-normal">We Are Alawys <br> Comited</h1>--}}
                 {{--<div class="d-flex">--}}
-                    {{--<video autoplay muted loop id="myVideo">--}}
-                        {{--<source src="{{ URL::asset('video/rain.mp4') }}" type="video/mp4">--}}
+                    {{--<video autoplay loop id="myVideo" width="320" height="240" controls muted>--}}
+                        {{--<source src="{{ URL::asset('video/iot.mp4') }}" type="video/mp4">--}}
                     {{--</video>--}}
 
                     {{--<!-- Optional: some overlay text to describe the video -->--}}
@@ -659,7 +659,7 @@
         {{--</div>--}}
     {{--</div>--}}
 {{--</section>--}}
-<!-- /video -->
+{{--<!-- /video -->--}}
 
 <!-- testimonial -->
 {{--<section class="section pb-0">--}}
@@ -702,7 +702,19 @@
 {{--</section>--}}
 <!-- /testimonial -->
 
-<section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url(images/background/cta.jpg);">
+{{--<section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url({{ URL::asset('images/cta.jpg') }});">--}}
+    {{--<div class="container">--}}
+        {{--<div class="row justify-content-between">--}}
+            {{--<div class="col-lg-12">--}}
+                {{--<video autoplay loop width="800" height="300" muted>--}}
+                    {{--<source src="{{ URL::asset('video/iot2.mp4') }}" type="video/mp4">--}}
+                {{--</video>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
+
+<section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url({{ URL::asset('images/cta.jpg') }});">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-6">
