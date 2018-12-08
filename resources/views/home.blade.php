@@ -86,7 +86,7 @@
     <div class="navigation">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="{{ URL::asset('images/logo.png') }}" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -102,7 +102,7 @@
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="/services">
                                 Service & Support
                             </a>
                         </li>
@@ -138,7 +138,7 @@
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-primary btn-sm" href="#">get a quote</a>
+                            <a class="nav-link btn btn-primary btn-sm" href="#">get instant quote</a>
                         </li>
                     </ul>
                 </div>
@@ -721,7 +721,7 @@
                 <h3 class="text-white">KAME Engineering give the smart solution for your business</h3>
             </div>
             <div class="col-lg-6 text-lg-right align-self-center">
-                <a href="#" class="btn btn-light">GET AN QUOTE</a>
+                <a href="#" class="btn btn-light">GET INSTANT QUOTE</a>
             </div>
         </div>
     </div>
