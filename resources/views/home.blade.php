@@ -34,9 +34,6 @@
     {{--<link rel="stylesheet" href="plugins/aos/aos.css">--}}
     <link rel="stylesheet" href="{{ URL::asset('css/aos.css') }}">
 
-    <!-- Video -->
-    <link rel="stylesheet" href="{{ URL::asset('css/video.css') }}">
-
     <!-- Stylesheets -->
     {{--<link href="css/style.css" rel="stylesheet">--}}
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
@@ -45,6 +42,8 @@
     <link rel="shortcut icon" href="{{ URL::asset('images/icons/favicon.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ URL::asset('images/icons/favicon.png') }}" type="image/x-icon">
 
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}">
 </head>
 
 <body>
@@ -65,7 +64,9 @@
                 <div class="col-lg-12">
                     <ul class="list-inline text-lg-right text-center">
                         <li class="list-inline-item">
-                            <a href="mailto:support@kameengineering.com">support@kameengineering.com</a>
+                            <a href="mailto:support@kameengineering.com">Email:
+                                <span class="ml-2">support@kameengineering.com</span>
+                            </a>
                         </li>
                         <li class="list-inline-item">
                             <a href="callto:00359897919217">Call Us Now:
@@ -147,74 +148,74 @@
     </div>
 </header>
 
-<section>
-    <div class="hero-slider position-relative">
-        <div class="hero-slider-item py-160" style="background-image: url({{ URL::asset('images/banner-1.jpg') }});" data-icon="ti-comments" data-text="Consultation">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hero-content">
-                            <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".1">We are here to</h4>
-                            <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">Planning Business</h1>
-                            <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                <br> incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-slider-item py-160" style="background-image: url({{ URL::asset('images/banner-2.jpg') }});" data-icon="ti-bar-chart" data-text="Marketting">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hero-content">
-                            <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".1">Get your</h4>
-                            <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">Business Consultant</h1>
-                            <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                <br> incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-slider-item py-160" style="background-image: url({{ URL::asset('images/banner-3.jpg') }});" data-icon="ti-money" data-text="Finance">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hero-content">
-                            <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".1">Start your</h4>
-                            <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">Future Plan</h1>
-                            <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                <br> incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-slider-item py-160" style="background-image: url({{ URL::asset('images/banner-4.jpg') }});" data-icon="ti-package" data-text="Human Resources">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hero-content">
-                            <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".1">We are always</h4>
-                            <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">Be Inspired By Best</h1>
-                            <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                <br> incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+{{--<section>--}}
+    {{--<div class="hero-slider position-relative">--}}
+        {{--<div class="hero-slider-item py-160" style="background-image: url({{ URL::asset('images/banner-1.jpg') }});" data-icon="ti-comments" data-text="Consultation">--}}
+            {{--<div class="container">--}}
+                {{--<div class="row">--}}
+                    {{--<div class="col-lg-12">--}}
+                        {{--<div class="hero-content">--}}
+                            {{--<h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".1">We are here to</h4>--}}
+                            {{--<h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">Planning Business</h1>--}}
+                            {{--<p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor--}}
+                                {{--<br> incididunt ut labore et dolore magna aliqua.--}}
+                            {{--</p>--}}
+                            {{--<a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="hero-slider-item py-160" style="background-image: url({{ URL::asset('images/banner-2.jpg') }});" data-icon="ti-bar-chart" data-text="Marketting">--}}
+            {{--<div class="container">--}}
+                {{--<div class="row">--}}
+                    {{--<div class="col-lg-12">--}}
+                        {{--<div class="hero-content">--}}
+                            {{--<h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".1">Get your</h4>--}}
+                            {{--<h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">Business Consultant</h1>--}}
+                            {{--<p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor--}}
+                                {{--<br> incididunt ut labore et dolore magna aliqua.--}}
+                            {{--</p>--}}
+                            {{--<a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="hero-slider-item py-160" style="background-image: url({{ URL::asset('images/banner-3.jpg') }});" data-icon="ti-money" data-text="Finance">--}}
+            {{--<div class="container">--}}
+                {{--<div class="row">--}}
+                    {{--<div class="col-lg-12">--}}
+                        {{--<div class="hero-content">--}}
+                            {{--<h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".1">Start your</h4>--}}
+                            {{--<h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">Future Plan</h1>--}}
+                            {{--<p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor--}}
+                                {{--<br> incididunt ut labore et dolore magna aliqua.--}}
+                            {{--</p>--}}
+                            {{--<a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="hero-slider-item py-160" style="background-image: url({{ URL::asset('images/banner-4.jpg') }});" data-icon="ti-package" data-text="Human Resources">--}}
+            {{--<div class="container">--}}
+                {{--<div class="row">--}}
+                    {{--<div class="col-lg-12">--}}
+                        {{--<div class="hero-content">--}}
+                            {{--<h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".1">We are always</h4>--}}
+                            {{--<h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">Be Inspired By Best</h1>--}}
+                            {{--<p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor--}}
+                                {{--<br> incididunt ut labore et dolore magna aliqua.--}}
+                            {{--</p>--}}
+                            {{--<a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
 
 <!-- service -->
 {{--<section class="section">--}}
@@ -702,17 +703,17 @@
 {{--</section>--}}
 <!-- /testimonial -->
 
-{{--<section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url({{ URL::asset('images/cta.jpg') }});">--}}
-    {{--<div class="container">--}}
-        {{--<div class="row justify-content-between">--}}
-            {{--<div class="col-lg-12">--}}
-                {{--<video autoplay loop width="800" height="300" muted>--}}
-                    {{--<source src="{{ URL::asset('video/iot2.mp4') }}" type="video/mp4">--}}
-                {{--</video>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</section>--}}
+<section class="cta overlay-primary py-50 text-center text-lg-left" style="padding: 0;">
+    <div class="container-fluid">
+        <div class="row justify-content-between">
+            <div class="col-lg-12 no-padding" style="margin-bottom: -6px;">
+                <video autoplay loop width="100%" muted>
+                    <source src="{{ URL::asset('video/iot2.mp4') }}" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url({{ URL::asset('images/cta.jpg') }});">
     <div class="container">
@@ -819,8 +820,27 @@
 <section class="bg-white py-4">
     <div class="container">
         <div class="client-logo-slider align-self-center">
-            <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="{{ URL::asset('images/clients/client-logo-1.png') }}"
-                                                                             alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 py-3 px-2">
+                <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-4.png') }}" alt="client-logo">
+            </a>
+            <a href="#" class="text-center d-block outline-0 py-3 px-2">
+                <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-2.png') }}" alt="client-logo">
+            </a>
+            <a href="#" class="text-center d-block outline-0 py-3 px-2">
+                <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-3.png') }}" alt="client-logo">
+            </a>
+            <a href="#" class="text-center d-block outline-0 py-3 px-2">
+                <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-6.png') }}" alt="client-logo">
+            </a>
+            <a href="#" class="text-center d-block outline-0 py-3 px-2">
+                <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-8.png') }}" alt="client-logo">
+            </a>
+            <a href="#" class="text-center d-block outline-0 py-3 px-2">
+                <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-9.png') }}" alt="client-logo">
+            </a>
+            <a href="#" class="text-center d-block outline-0 py-3 px-2">
+                <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-7.png') }}" alt="client-logo">
+            </a>
             {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-2.png"--}}
                                                                              {{--alt="client-logo"></a>--}}
             {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-3.png"--}}

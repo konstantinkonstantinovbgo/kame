@@ -34,9 +34,6 @@
     {{--<link rel="stylesheet" href="plugins/aos/aos.css">--}}
     <link rel="stylesheet" href="{{ URL::asset('css/aos.css') }}">
 
-    <!-- Video -->
-    <link rel="stylesheet" href="{{ URL::asset('css/video.css') }}">
-
     <!-- Stylesheets -->
     {{--<link href="css/style.css" rel="stylesheet">--}}
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
@@ -45,6 +42,8 @@
     <link rel="shortcut icon" href="{{ URL::asset('images/icons/favicon.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ URL::asset('images/icons/favicon.png') }}" type="image/x-icon">
 
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="{{ URL::asset('main.css') }}">
 </head>
 
 <body>
