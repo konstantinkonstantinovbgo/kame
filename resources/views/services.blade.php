@@ -73,11 +73,6 @@
                                 <span class="ml-2"> +359 897 919 217</span>
                             </a>
                         </li>
-                        {{--<li class="list-inline-item">--}}
-                        {{--<a href="#" id="searchOpen">--}}
-                        {{--<i class="ti-search"></i>--}}
-                        {{--</a>--}}
-                        {{--</li>--}}
                     </ul>
                 </div>
             </div>
@@ -98,7 +93,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="/">
                                 Home
                             </a>
                         </li>
@@ -107,24 +102,6 @@
                                 Service & Support
                             </a>
                         </li>
-                        {{--<li class="nav-item dropdown">--}}
-                        {{--<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"--}}
-                        {{--aria-expanded="false">--}}
-                        {{--Pages--}}
-                        {{--</a>--}}
-                        {{--<div class="dropdown-menu" >--}}
-                        {{--<a class="dropdown-item" href="team.html">Team Page</a>--}}
-                        {{--<a class="dropdown-item" href="pricing.html">Pricing Page</a>--}}
-                        {{--<a class="dropdown-item" href="project.html">project Page</a>--}}
-                        {{--<a class="dropdown-item" href="faqs.html">FAQs Page</a>--}}
-                        {{--<a class="dropdown-item" href="project-single.html">Project Single</a>--}}
-                        {{--<a class="dropdown-item" href="team-single.html">Team Single</a>--}}
-                        {{--<a class="dropdown-item" href="404.html">404 Page</a>--}}
-                        {{--<a class="dropdown-item" href="signup.html">Sign Up Page</a>--}}
-                        {{--<a class="dropdown-item" href="login.html">Login Page</a>--}}
-                        {{--<a class="dropdown-item" href="comming-soon.html">Comming Soon Page</a>--}}
-                        {{--</div>--}}
-                        {{--</li>--}}
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 Projects
