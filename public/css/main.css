@@ -40,7 +40,7 @@
 
 .top-header ul li a {
     color: #fff;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 .top-header ul li a span, .text-primary {
@@ -62,18 +62,6 @@ a.text-dark:hover, a.text-white:hover {
 
 .slick-slide img {
     width: 100%;
-}
-
-@media screen and (min-width: 160px) {
-    footer div.row p, footer div.row ul > li {
-        font-size: 1vw;
-    }
-}
-
-@media screen and (min-width: 1450px) {
-    .top-header ul li a {
-        font-size: 1vw;
-    }
 }
 
 @media screen and (max-width: 768px) {
