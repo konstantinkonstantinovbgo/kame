@@ -1,0 +1,75 @@
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+.top-header ul li a {
+    color: #fff;
+    font-size: 1vw;
+}
+
+.top-header ul li a span, .text-primary {
+    font-weight: 900;
+    color: #ffff00 !important;
+}
+
+.navigation .navbar .nav-item .nav-link {
+    font-size: 16px;
+}
+
+footer div.row p, footer div.row ul > li {
+    font-size: 1.5vw;
+}
+
+a.text-dark:hover, a.text-white:hover {
+    color: #ffff00 !important;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .top-header ul li a {
+        border: none;
+    }
+
+    footer div.row p, footer div.row ul > li, .top-header ul li a {
+        font-size: 3.5vw;
+    }
+}

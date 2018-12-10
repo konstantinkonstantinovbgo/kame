@@ -12,10 +12,20 @@
 */
 
 Route::get('/', function () {
-//    return view('welcome');
     return view('home');
-});
+})->name('services');
 
 Route::get('/services', function () {
     return view('services');
-});
+})->name('services');
+
+// Generating URLs...
+//$url = route('profile');
+
+// Generating Redirects...
+//return redirect()->route('profile');
+
+
+// temp
+Route::get('/temp', 'TemperatureController@show')->name('temp');
+Route::post('/temp', 'TemperatureController@calc')->name('temp');
