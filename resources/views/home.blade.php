@@ -841,24 +841,6 @@
             <a href="#" class="text-center d-block outline-0 py-3 px-2">
                 <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-7.png') }}" alt="client-logo">
             </a>
-            {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-2.png"--}}
-                                                                             {{--alt="client-logo"></a>--}}
-            {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-3.png"--}}
-                                                                             {{--alt="client-logo"></a>--}}
-            {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-4.png"--}}
-                                                                             {{--alt="client-logo"></a>--}}
-            {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-5.png"--}}
-                                                                             {{--alt="client-logo"></a>--}}
-            {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-1.png"--}}
-                                                                             {{--alt="client-logo"></a>--}}
-            {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-2.png"--}}
-                                                                             {{--alt="client-logo"></a>--}}
-            {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-3.png"--}}
-                                                                             {{--alt="client-logo"></a>--}}
-            {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-4.png"--}}
-                                                                             {{--alt="client-logo"></a>--}}
-            {{--<a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="images/client-logo/client-logo-5.png"--}}
-                                                                             {{--alt="client-logo"></a>--}}
         </div>
     </div>
 </section>
