@@ -16,10 +16,14 @@ https://www.saveoffline.com/#https://vimeo.com/175092026
 2. (Home page ) https://themify.me/themify-icons нещо ме излизат.
 3. (Home page ) Донабяне на клиентски лога отдолу / за сега има едно. Намира се в docs/Referance.docx
 4. (Home page ) На мястото на слайдера да сложим видео (има го в кода). Трябва да изглежда като това на www.protolabs.com
+done :)
 
-5. Add languages ('en', 'bg', 'de').
+11. (Клиент) Жълтите текстове да станат черни.
+12. "Get instant quote" - маха се червеното. Имам да разяснявам по-това нещо.
+
+5. Горе да има начин за смяна на езици. Add languages ('en', 'bg', 'de').
 6. Do partials like header, footer and more.
-7. Complete "Services" page.
+7. "Services" page. Довършване ан страницата. В слайдъра да се оправят текстовете.
 8. "Projects" page.
 9. "About" page.
 10. "Contact" page.
