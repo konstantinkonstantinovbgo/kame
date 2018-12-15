@@ -83,31 +83,28 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">
+                        <li class="nav-item @if (Route::currentRouteName() === 'home') active @endif">
+                            <a class="nav-link" href="{{ route('home') }}">
                                 Home
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="/services">
+                        <li class="nav-item @if (Route::currentRouteName() === 'services') active @endif">
+                            <a class="nav-link" href="{{ route('services') }}">
                                 Service & Support
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <li class="nav-item @if (Route::currentRouteName() === 'projects') active @endif">
+                            <a class="nav-link" href="{{ route('projects') }}">
                                 Projects
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" role="button">
+                        <li class="nav-item @if (Route::currentRouteName() === 'about') active @endif">
+                            <a class="nav-link" href="{{ route('about') }}" role="button">
                                 About
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-primary btn-sm" href="#">get instant quote</a>
+                        <li class="nav-item @if (Route::currentRouteName() === 'contact') active @endif">
+                            <a class="nav-link btn btn-primary btn-sm" href="{{ route('contact') }}">get instant quote</a>
                         </li>
                     </ul>
                 </div>
