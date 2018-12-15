@@ -17,7 +17,9 @@
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-6">
-                <h3 class="text-white">KAME Engineering give the smart solution for your business</h3>
+                <h3 class="text-white">
+                    {{ trans('messages.smart-solution') }}
+                </h3>
             </div>
             <div class="col-lg-6 text-lg-right align-self-center">
                 <a href="#" class="btn btn-light">GET INSTANT QUOTE</a>

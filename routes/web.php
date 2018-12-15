@@ -11,21 +11,23 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('services');
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
-Route::get('/services', function () {
-    return view('services');
-})->name('services');
+Route::group(
+    [
+        'prefix' => LaravelLocalization::setLocale(),
+        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+    ],
+    function()
+    {
+        /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+        Route::get('/', function () {
+            return view('home');
+        })->name('home');
 
-// Generating URLs...
-//$url = route('profile');
+        Route::get('/services', function () {
+            return view('services');
+        })->name('services');
+    });
 
-// Generating Redirects...
-//return redirect()->route('profile');
-
-
-// temp
-Route::get('/temp', 'TemperatureController@show')->name('temp');
-Route::post('/temp', 'TemperatureController@calc')->name('temp');
+/** OTHER PAGES THAT SHOULD NOT BE LOCALIZED **/
