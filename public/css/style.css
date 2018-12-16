@@ -248,16 +248,19 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #e84444;
+  /*background: #e84444;*/
+  background: #009E4F;
   color: #fff;
 }
 
 .btn-primary:active {
-  background: #e84444 !important;
+  /*background: #e84444 !important;*/
+  background: #009E4F !important;
 }
 
 .btn-primary:hover {
-  background: #ee7171;
+  /*background: #ee7171;*/
+  background: #009E4F;
 }
 
 .btn-secondary {
@@ -266,11 +269,12 @@ h6, .h6 {
 }
 
 .btn-secondary:active {
-  background: #e84444 !important;
+  /*background: #e84444 !important;*/
+  background: #009E4F !important;
 }
 
 .btn-secondary:hover {
-  background: #e84444 !important;
+  /*background: #e84444 !important;*/
   background: #ee7171;
 }
 
@@ -1010,7 +1014,8 @@ button {
 }
 
 .navigation .navbar .nav-item .nav-link:hover {
-  color: #e84444;
+  /*color: #e84444;*/
+  color: #009E4F;
 }
 
 .navigation .navbar .nav-item:last-child {
@@ -1029,7 +1034,8 @@ button {
 }
 
 .navigation .navbar .nav-item.active .nav-link {
-  color: #e84444;
+  /*color: #e84444;*/
+  color: #009E4F;
 }
 
 .navigation .navbar .dropdown:hover .dropdown-menu {

@@ -59,15 +59,12 @@
 <!-- /footer -->
 
 <!-- jQuery -->
-{{--<script src="plugins/jQuery/jquery.min.js"></script>--}}
 <script src="{{ URL::asset('js/jquery.min.js') }}"></script>
 
 <!-- Bootstrap JS -->
-{{--<script src="plugins/bootstrap/bootstrap.min.js"></script>--}}
 <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
 
 <!-- magnific popup -->
-{{--<script src="plugins/magnific-popup/jquery.magnific.popup.min.js"></script>--}}
 <script src="{{ URL::asset('js/jquery.magnific.popup.min.js') }}"></script>
 
 <!-- slick slider -->
@@ -75,27 +72,22 @@
 <script src="{{ URL::asset('js/slick.min.js') }}"></script>
 
 <!-- mixitup filter -->
-{{--<script src="plugins/mixitup/mixitup.min.js"></script>--}}
 <script src="{{ URL::asset('js/mixitup.min.js') }}"></script>
 
 <!-- Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
-{{--<script  src="plugins/google-map/gmap.js"></script>--}}
+<script src="https://maps.googleapis.com/maps/api/js?key=@todo"></script>
 <script src="{{ URL::asset('js/gmap.js') }}"></script>
 
 <!-- Syo Timer -->
-{{--<script src="plugins/syotimer/jquery.syotimer.js"></script>--}}
 <script src="{{ URL::asset('js/jquery.syotimer.js') }}"></script>
 
 <!-- aos -->
-{{--<script src="plugins/aos/aos.js"></script>--}}
 <script src="{{ URL::asset('js/aos.js') }}"></script>
 
 <!-- Video -->
 <script src="{{ URL::asset('js/video.js') }}"></script>
 
 <!-- Main Script -->
-{{--<script src="js/script.js"></script>--}}
 <script src="{{ URL::asset('js/script.js') }}"></script>
 
 </body>

@@ -104,6 +104,11 @@
                             </a>
                         </li>
                         <li class="nav-item @if (Route::currentRouteName() === 'contact') active @endif">
+                            <a class="nav-link" href="{{ route('contact') }}" role="button">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item @if (Route::currentRouteName() === 'contact') active @endif">
                             <a class="nav-link btn btn-primary btn-sm" href="{{ route('contact') }}">get instant quote</a>
                         </li>
                     </ul>
