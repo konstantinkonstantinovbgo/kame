@@ -28,13 +28,15 @@
                         <li class="d-flex mb-30">
                             <i class="round-icon mr-3 ti-mobile"></i>
                             <div class="align-self-center font-primary">
-                                <p>00359897919217</p>
+                                <p>+359 897 919 217</p>
                             </div>
                         </li>
                         <li class="d-flex mb-30">
                             <i class="round-icon mr-3 ti-email"></i>
                             <div class="align-self-center font-primary">
-                                <p>support@kameengineering.com</p>
+                                <a href="mailto:support@kameengineering.com">
+                                    <p>support@kameengineering.com</p>
+                                </a>
                             </div>
                         </li>
                         <li class="d-flex mb-30">

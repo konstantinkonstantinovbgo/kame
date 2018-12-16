@@ -30,6 +30,9 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
 
+    <!-- Languages for Bootstrap -->
+    <link rel="stylesheet" href="{{ URL::asset('css/languages.min.css') }}">
+
     <!--Favicon-->
     <link rel="shortcut icon" href="{{ URL::asset('images/icons/favicon.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ URL::asset('images/icons/favicon.png') }}" type="image/x-icon">
@@ -64,6 +67,17 @@
                                 <span class="ml-2"> +359 897 919 217</span>
                             </a>
                         </li>
+                        {{--@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)--}}
+                        {{--<li>--}}
+                            {{--<a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">--}}
+                                {{--{{ $properties['native'] }}--}}
+                                {{--<span class="lang-lg lang-lbl" lang="be"></span>--}}
+                            {{--</a>--}}
+                        {{--</li>--}}
+                        {{--@endforeach--}}
+                        {{--<li class="list-inline-item">--}}
+                            {{--{{ LaravelLocalization::getCurrentLocale() }}--}}
+                        {{--</li>--}}
                     </ul>
                 </div>
             </div>
@@ -108,8 +122,10 @@
                                 Contact
                             </a>
                         </li>
-                        <li class="nav-item @if (Route::currentRouteName() === 'contact') active @endif">
-                            <a class="nav-link btn btn-primary btn-sm" href="{{ route('contact') }}">get instant quote</a>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary btn-sm" href="{{ route('contact') }}">
+                                    get instant quote
+                            </a>
                         </li>
                     </ul>
                 </div>
