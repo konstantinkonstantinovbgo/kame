@@ -18,15 +18,16 @@ https://www.saveoffline.com/#https://vimeo.com/175092026
 4. (Home page ) На мястото на слайдера да сложим видео (има го в кода). Трябва да изглежда като това на www.protolabs.com
 done :)
 
-11. (Клиент) Жълтите текстове да станат черни.
-12. "Get instant quote" - маха се червеното. Имам да разяснявам по-това нещо.
+11. (Клиент) Жълтите текстове да станат черни. done.
+12. "Get instant quote" - маха се червеното. Имам да разяснявам по-това нещо. done.
 
 5. Горе да има начин за смяна на езици. Add languages ('en', 'bg', 'de').
-6. Do partials like header, footer and more. Done.
-7. "Services" page. Довършване на страницата. В слайдъра да се оправят текстовете.
+6. Do partials like header, footer and more. Done. done.
+7. "Services" page. Довършване на страницата. В слайдъра да се оправят текстовете. done.
 8. "Projects" page.
-9. "About" page.
+9. "About" page. done.
 10. "Contact" page.
+13. Design email.
 
 Laravel Localization
 https://github.com/mcamara/laravel-localization
