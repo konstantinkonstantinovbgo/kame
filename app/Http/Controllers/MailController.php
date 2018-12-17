@@ -13,13 +13,7 @@ class MailController extends Controller
 {
     public function htmlEmail(Request $request)
     {
-//        Log::info($request->all());
-//        Log::error($request->all());
-//        Log::channel('slack')->info('Something happened!');
-
-        dd(env('LOG_SLACK_WEBHOOK_URL'));
-        Log::stack(['daily', 'slack'])->error($request->all());
-        dd(1);
+        Log::info($request->all());
 
         $user = User::findOrFail(1);
 
@@ -41,7 +35,7 @@ class MailController extends Controller
             // Set the To addresses with an associative array (setTo/setCc/setBcc)
             ->setTo([$user->email => $user->name])
             // Give it a body
-            ->setBody($request->get('message'))// And optionally an alternative body
+            ->setBody($request->get('message'))
         ;
 //        $message->setBody(
 //            '<html>' .
@@ -57,7 +51,7 @@ class MailController extends Controller
 
         // Pass a variable name to the send() method
         if (!$mailer->send($message, $failures)) {
-            Log::error('Something went wrong (htmlEmail): ' . $failures);
+            Log::stack(['daily', 'slack'])->error($failures);
             return redirect()->back()->with('error', 'Something has wrong.');
         } else {
             return redirect()->back()->with('success', 'Message was sent successfully');

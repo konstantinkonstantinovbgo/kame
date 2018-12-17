@@ -57,6 +57,12 @@
                                     <li>{!! \Session::get('success') !!}</li>
                                 </ul>
                             </div>
+                        @elseif(\Session::has('error'))
+                            <div class="alert alert-error">
+                                <ul>
+                                    <li>{!! \Session::get('error') !!}</li>
+                                </ul>
+                            </div>
                         @endif
                         {!! Form::open(['url' => route('send-email'), 'class' => 'row']) !!}
                             <div class="col-lg-12">
