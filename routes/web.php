@@ -22,24 +22,26 @@ Route::group(
     {
         /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
         Route::get('/', function () {
-            return view('home');
+            return view('/frontend/home');
         })->name('home');
 
         Route::get('/services', function () {
-            return view('services');
+            return view('/frontend/services');
         })->name('services');
 
         Route::get('/projects', function () {
-            return view('projects');
+            return view('/frontend/projects');
         })->name('projects');
 
         Route::get('/about', function () {
-            return view('about');
+            return view('/frontend/about');
         })->name('about');
 
         Route::get('/contact', function () {
-            return view('contact');
+            return view('/frontend/contact');
         })->name('contact');
+
+        Route::post('/send-email', 'MailController@htmlEmail')->name('send-email');
     });
 
 /** OTHER PAGES THAT SHOULD NOT BE LOCALIZED **/
