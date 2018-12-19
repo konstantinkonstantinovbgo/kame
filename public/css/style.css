@@ -781,6 +781,10 @@ button {
   color: #222;
 }
 
+.text-green {
+  color: #009E4F;
+}
+
 .text-underline {
   text-decoration: underline;
 }
