@@ -176,6 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Laraveldaily\Quickadmin\QuickadminServiceProvider::class,
         Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
+        Dimsav\Translatable\TranslatableServiceProvider::class,
     ],
 
     /*

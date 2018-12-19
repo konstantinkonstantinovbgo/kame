@@ -28,9 +28,13 @@ done :)
 9. "About" page. done.
 10. "Contact" page.
 13. Design email.
+14. Add SEO tags.
 
 Laravel Localization
 https://github.com/mcamara/laravel-localization
 
 Languages for Bootstrap 3
 http://usrz.github.io/bootstrap-languages/#navigation-4
+
+Admin languages
+https://github.com/dimsav/laravel-translatable
