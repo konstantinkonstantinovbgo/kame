@@ -27,6 +27,7 @@
                         <!-- contact items -->
                         <li class="d-flex mb-30">
                             <i class="round-icon mr-3 ti-mobile"></i>
+
                             <div class="align-self-center font-primary">
                                 <p>+359 897 919 217</p>
                             </div>

@@ -697,7 +697,8 @@ button {
   text-align: center;
   line-height: 70px;
   font-size: 30px;
-  color: #e84444;
+  /*color: #e84444;*/
+  color: #009E4F;
   display: inline-block;
 }
 
