@@ -75,7 +75,7 @@
 <script src="{{ URL::asset('js/mixitup.min.js') }}"></script>
 
 <!-- Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=@todo"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDICuvPGAd7Hs5I0vtNBQmCoV6WvywH8y4"></script>
 <script src="{{ URL::asset('js/gmap.js') }}"></script>
 
 <!-- Syo Timer -->
