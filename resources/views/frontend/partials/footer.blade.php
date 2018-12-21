@@ -68,14 +68,13 @@
 <script src="{{ URL::asset('js/jquery.magnific.popup.min.js') }}"></script>
 
 <!-- slick slider -->
-{{--<script src="plugins/slick/slick.min.js"></script>--}}
 <script src="{{ URL::asset('js/slick.min.js') }}"></script>
 
 <!-- mixitup filter -->
 <script src="{{ URL::asset('js/mixitup.min.js') }}"></script>
 
 <!-- Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDICuvPGAd7Hs5I0vtNBQmCoV6WvywH8y4"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_API_KEY') }}"></script>
 <script src="{{ URL::asset('js/gmap.js') }}"></script>
 
 <!-- Syo Timer -->
