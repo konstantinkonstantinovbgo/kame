@@ -12,35 +12,29 @@ https://www.icn.bg/bg/help/spodelen-hosting-linux/uebsayt/izpolzvane-na-razlichn
 https://vimeo.com/175092026
 https://www.saveoffline.com/#https://vimeo.com/175092026
 
-1. (Home page) Нужно е оправяне на шрифтове и размер на страницата. имейл, телефон ...
-2. (Home page ) https://themify.me/themify-icons нещо ме излизат.
-3. (Home page ) Добавяне на клиентски лога отдолу / за сега има едно. Намира се в docs/Referance.docx
-4. (Home page ) На мястото на слайдера да сложим видео (има го в кода). Трябва да изглежда като това на www.protolabs.com
-done :)
+1. (Home page) Нужно е оправяне на шрифтове и размер на страницата. имейл, телефон ... done.
+2. (Home page ) https://themify.me/themify-icons нещо ме излизат. done.
+3. (Home page ) Добавяне на клиентски лога отдолу / за сега има едно. Намира се в docs/Referance.docx done.
+4. (Home page ) На мястото на слайдера да сложим видео (има го в кода). Трябва да изглежда като това на www.protolabs.com done.
 
 11. (Клиент) Жълтите текстове да станат черни. done.
-12. "Get instant quote" - маха се червеното. Имам да разяснявам по-това нещо. done.
+12. "Get instant quote" - маха се червеното. done.
 
-5. Горе да има начин за смяна на езици. Add languages ('en', 'bg', 'de').
-6. Do partials like header, footer and more. Done. done.
-7. "Services" page. Довършване на страницата. В слайдъра да се оправят текстовете. done.
+6. Do partials like header, footer and more. done.
+7. "Services" page. Довършване на страницата. В слайдъра да се оправят текстовете.
 8. "Projects" page.
 9. "About" page. done.
-10. "Contact" page.
-13. Design email.
+10. "Contact" page. done.
 14. Add SEO tags.
 
 Laravel Localization
 https://github.com/mcamara/laravel-localization
 
-Languages for Bootstrap 3
-http://usrz.github.io/bootstrap-languages/#navigation-4
-
 Admin languages
 https://github.com/dimsav/laravel-translatable
 
-Kanguage Tabs:
-https://github.com/LaravelDaily/QuickAdminPanel-Multi-Language
-
-EXample google maps:
-https://wrightshq.com/playground/placing-multiple-markers-on-a-google-map-using-api-3/
+Front end:
+1. Горе да има начин за смяна на езици. Add languages ('en', 'bg', 'de').
+Languages for Bootstrap 3
+http://usrz.github.io/bootstrap-languages/#navigation-4
+2. Contact us -> Design email. Do blade template with full html code. resources/views/frontend/contact-send-mail.

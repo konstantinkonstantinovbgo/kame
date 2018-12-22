@@ -49,9 +49,10 @@
                         </li>
                     </ul>
                 </div>
-                <!-- form -->
                 <div class="col-lg-6 col-md-7">
-                    <div class="p-5 rounded box-shadow">
+                    <h2 class="section-title">Contact Form</h2>
+                    <!-- form -->
+                    <div class="rounded">
                         @if (\Session::has('success'))
                             <div class="alert alert-success">
                                 <ul>
@@ -66,27 +67,62 @@
                             </div>
                         @endif
                         {!! Form::open(['url' => route('send-email'), 'class' => 'row']) !!}
-                            <div class="col-lg-12">
-                                <h3>Contact Form</h3>
-                            </div>
-                            <div class="col-lg-12">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
-                            </div>
-                            <div class="col-lg-12">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
-                            </div>
-                            <div class="col-lg-12">
-                                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
-                            </div>
-                            <div class="col-lg-12">
-                                <textarea class="form-control p-2" name="message" id="message" placeholder="Your Message Here..." required style="height: 200px;"></textarea>
-                            </div>
-                            <div class="col-lg-12">
-                                <button class="btn btn-primary" type="submit" value="send">Submit Now</button>
-                            </div>
+                        <div class="col-lg-12">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="col-lg-12">
+                            <textarea class="form-control p-2" name="message" id="message" placeholder="Your Message Here..." required style="height: 200px;"></textarea>
+                        </div>
+                        <div class="col-lg-12">
+                            <button class="btn btn-primary" type="submit" value="send">Submit Now</button>
+                        </div>
                         {!! Form::close() !!}
                     </div>
                 </div>
+                <!-- form -->
+                {{--<div class="col-lg-6 col-md-7">--}}
+                    {{--<div class="p-5 rounded box-shadow">--}}
+                        {{--@if (\Session::has('success'))--}}
+                            {{--<div class="alert alert-success">--}}
+                                {{--<ul>--}}
+                                    {{--<li>{!! \Session::get('success') !!}</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--@elseif(\Session::has('error'))--}}
+                            {{--<div class="alert alert-error">--}}
+                                {{--<ul>--}}
+                                    {{--<li>{!! \Session::get('error') !!}</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--@endif--}}
+                        {{--{!! Form::open(['url' => route('send-email'), 'class' => 'row']) !!}--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<h3>Contact Form</h3>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<input type="text" name="name" id="name" class="form-control" placeholder="Name" required>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<textarea class="form-control p-2" name="message" id="message" placeholder="Your Message Here..." required style="height: 200px;"></textarea>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<button class="btn btn-primary" type="submit" value="send">Submit Now</button>--}}
+                            {{--</div>--}}
+                        {{--{!! Form::close() !!}--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             </div>
         </div>
     </section>
