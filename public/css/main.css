@@ -74,3 +74,7 @@ a.text-dark:hover, a.text-white:hover {
         font-size: 3.5vw;
     }
 }
+
+.margin-10 {
+    margin: 10px;
+}
