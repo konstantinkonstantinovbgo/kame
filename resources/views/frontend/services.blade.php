@@ -124,7 +124,7 @@
                                  alt="service-image">
                         </div>
                         <div class="card-body p-0">
-                            <h4 class="card-title pt-3">{{ trans('messages.mechanical-design') }}</h4>
+                            <h4 class="card-title pt-3">{{ trans('messages.automation-production') }}</h4>
                             <p class="card-text mx-2 mb-0">{{ trans('messages.food-industry-reengineering') }}</p>
                         </div>
                         <div class="card-img-wrapper overlay-rounded-top">
