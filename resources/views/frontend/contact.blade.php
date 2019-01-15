@@ -43,8 +43,9 @@
                         <li class="d-flex mb-30">
                             <i class="round-icon mr-3 ti-map-alt"></i>
                             <div class="align-self-center font-primary">
-                                <p>24/B Garden Street.</p>
-                                <p>Northambia, Weals, UK</p>
+                                <p>OFFICE PLOVDIV 4002 24 GEN. DANAIL NIKOLAEV STR. </p>
+                                <p>PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA</p>
+                                <p>BULGARIA</p>
                             </div>
                         </li>
                     </ul>
@@ -85,44 +86,6 @@
                         {!! Form::close() !!}
                     </div>
                 </div>
-                <!-- form -->
-                {{--<div class="col-lg-6 col-md-7">--}}
-                    {{--<div class="p-5 rounded box-shadow">--}}
-                        {{--@if (\Session::has('success'))--}}
-                            {{--<div class="alert alert-success">--}}
-                                {{--<ul>--}}
-                                    {{--<li>{!! \Session::get('success') !!}</li>--}}
-                                {{--</ul>--}}
-                            {{--</div>--}}
-                        {{--@elseif(\Session::has('error'))--}}
-                            {{--<div class="alert alert-error">--}}
-                                {{--<ul>--}}
-                                    {{--<li>{!! \Session::get('error') !!}</li>--}}
-                                {{--</ul>--}}
-                            {{--</div>--}}
-                        {{--@endif--}}
-                        {{--{!! Form::open(['url' => route('send-email'), 'class' => 'row']) !!}--}}
-                            {{--<div class="col-lg-12">--}}
-                                {{--<h3>Contact Form</h3>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-lg-12">--}}
-                                {{--<input type="text" name="name" id="name" class="form-control" placeholder="Name" required>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-lg-12">--}}
-                                {{--<input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-lg-12">--}}
-                                {{--<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-lg-12">--}}
-                                {{--<textarea class="form-control p-2" name="message" id="message" placeholder="Your Message Here..." required style="height: 200px;"></textarea>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-lg-12">--}}
-                                {{--<button class="btn btn-primary" type="submit" value="send">Submit Now</button>--}}
-                            {{--</div>--}}
-                        {{--{!! Form::close() !!}--}}
-                    {{--</div>--}}
-                {{--</div>--}}
             </div>
         </div>
     </section>

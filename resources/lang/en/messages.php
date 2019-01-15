@@ -8,7 +8,7 @@ return [
 Recognizing the World’s global restructuring, the environmental issues, and the new global Industry invasion, we stepped forward to creating a modern mindset company where we set high standards at all levels in order to perform and make things happened even for highly demanding great complexity concepts.
 
 Our scope is to respond effectively by providing innovating cost efficient holistic solutions covering all aspects of a project without compromising its sustainable parameters as well as of 
-Welcome to Lythea’s web-site, enjoy the hospitality and discover more about our mission.
+Welcome to our web-site, enjoy the hospitality and discover more about our mission.
 
 Sincerely
 
@@ -28,14 +28,15 @@ Our knowledge in the areas of maintenance, modernization and process optimizatio
 In addition to design, construction and calculations, we are also active in the areas of project planning, project management and consulting. 
 
 Calculations, FEM analyzes, event analyzes and dynamic simulations are possible with our modern CAD + calculation programs. ',
+    'all-right-reserved'                  => 'All Right Reserved',
 
     // Menu - services
     'best-service'                        => 'Best Service',
     'service-we-provide'                  => 'Service We Provide',
     'mechanical-design'                   => 'Mechanical Design',
+    'mechanical-design-title'             => 'Providing a direct connection between the design of electrical and mechanical systems',
     'mechanical-design-electrical-design' => 'Mechanical - Electrical Design',
-    'mechanical-design-text-1'            => 'Providing a direct connection between the design of electrical and mechanical systems
-    
+    'mechanical-design-text-1'            => '
 Design Interoperability
 It’s no secret that products today are increasingly complex with many, if not most, reliant on integrated electronics. 
 It is critical that designers of both systems collaborate throughout the development process in order to prevent conflicts and ensure alignment between each system prior to design completion.',
@@ -43,8 +44,47 @@ It is critical that designers of both systems collaborate throughout the develop
     'mechanical-design-text-3'            => 'Integrating mechanical, electronic and electrical components in electromechanical products is crucial to aerospace, automotive, electronics, machinery and medical device manufacturers.
  These manufacturers are challenged to transform their development processes to concurrent design and systems engineering methods that support collaboration among diverse disciplines.',
     'automation-production'               => 'Automation Production',
+    'food-industry-reengineering'         => 'Food Industry reengineering',
+    'chocolate'                           => 'Chocolate TEMPERER – MOULDER ',
+    'donut'                               => 'Donut Dispenser',
+    'glass'                               => 'GLASS Industry',
+    'gripper'                             => 'Automatic Input/output glass bottle Gripper',
+    'gripper-tech'                        => 'Technical data: 
+Conveyor speed from 50-250mm/s, Servo drive separator, plus servo geared drive Bottle Gripper. Easy, fast and flexible resetting for different bottles.',
+    'gripper-tech2'                       => 'Technical data: 
+Stainless steel belts, Linear speed from 50-250 mm/s, automatic leveling from 650-950mm',
+    'assembling'                          => 'Assembling ( Working ) Stations',
+    'heavy-duty-industry'                 => 'HEAVY Duty Industry',
+    'belt-conveyor-mining-industry'       => 'Belt Conveyor-mining Industry',
+    'automation'                          => 'Automation',
+    'automated-drilling'                  => 'Automated Drilling and assembling Conveyors for Aluminum tables',
+    'automated-drilling-tech'             => 'Technical Data: 
+- Two Timing belt driven Conveyors with high rpm Spindles ( X, Y and Z motion ) -fully automated 
+- Four Vibro-feeders for plastic parts ( angles and caps ) -fully automated 
+- One Assembling pneumatic Table ( 1200 x 800 ) with vacuum Plate- semi automatic 
+- Five Belt Conveyors ( different length ) semi automatic 
+
+Performance 600-800 Tables per hour.',
     'outsourcing'                         => 'Outsourcing',
-    'Consulting'                          => 'Consulting',
+    'outsourcing-title'                   => 'Outsource Mechanical Engineering Services',
+    'outsourcing-text-1'                  => 'Mechanical Engineering Services We Offer',
+    'outsourcing-text-2'                  => 'At KAME engineering Ltd., we offer a wide range of mechanical engineering solutions such as Engineering Design, Drafting, Animation and CAD related services to fulfill our clients\' diverse business requirements',
+    'outsourcing-text-3'                  => 'Features of Our Mechanical Engineering Services',
+    'outsourcing-text-4'                  => '
+    • Compliance with International standards like AISI, DIN and ISO
+    • Expertise in working with AutoCAD,SolidWorks, AUTOdesk etc.
+    • Stringent quality processes and security measures
+    • CAD Conversion Services rendered by expert Draftsmen and Engineers
+    • Editable 2D CAD Drawings for prototyping
+    • Accurate 3D CAD drawings that allow you to share concepts
+    • Realistic Mechanical 3D Product Animation
+',
+
+    'consulting'                          => 'Consulting',
+    'consulting-text-1'                   => 'KAME engineering Ltd. is a dynamic and focused company that has been offering mechanical engineering solutions and value-added services for over 8 years. Our mechanical engineers have expertise in analyzing, designing, manufacturing, and maintaining all sorts of mechanical systems.
+Outsourcing mechanical engineering requirements allows companies to stay competitive by optimizing their product engineering and R&D services and shortening product development cycle. Our success stems from the fact that we constantly strive to maximize productivity and deliver unmatched mechanical engineering solutions that are customized, and solve problems effortlessly.',
+    'consulting-title'                    => 'What is it Like to be a Mechanical Engineering Consultant?',
+    'consulting-text'                     => 'As a mechanical engineering consultant, most of your activities will revolve around solving problems in real-world scenarios. Learning these skills is imperative given the fact that the program itself focuses on core areas like electro-mechanical devices, instrumentation and controls, mechanical design and analysis, material science and manufacturing process, as well as computer-aided engineering graphics and analysis.',
 
     // Menu - services
     'projects'                            => 'Projects',
