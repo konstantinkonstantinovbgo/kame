@@ -1036,6 +1036,12 @@ button {
 
 .navigation .navbar .nav-item:last-child .nav-link {
   color: #fff;
+  border: 1px solid #009E4F;
+}
+
+.navigation .navbar .nav-item:last-child .nav-link:hover {
+  background-color: #fff;
+  color: #009E4F;
 }
 
 .navigation .navbar .nav-item.active .nav-link {

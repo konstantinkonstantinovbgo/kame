@@ -1,80 +1,164 @@
 .no-padding {
-    padding-left: 0;
-    padding-right: 0;
+padding-left: 0;
+padding-right: 0;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
 }
 
 /* Add some content at the bottom of the video/page */
 .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
+position: fixed;
+bottom: 0;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
 }
 
 /* Style the button used to pause/play the video */
 #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
+width: 200px;
+font-size: 18px;
+padding: 10px;
+border: none;
+background: #000;
+color: #fff;
+cursor: pointer;
 }
 
 #myBtn:hover {
-    background: #ddd;
-    color: black;
+background: #ddd;
+color: black;
 }
 
 .top-header ul li a {
-    color: #fff;
-    font-size: 1vw;
+color: #fff;
+font-size: 1vw;
 }
 
 .top-header ul li a span, .text-primary {
-    font-weight: 900;
-    /*color: #ffff00 !important;*/
-    color: #000000 !important;
+font-weight: 900;
+/*color: #ffff00 !important;*/
+color: #000000 !important;
 }
 
 .navigation .navbar .nav-item .nav-link {
-    font-size: 16px;
+font-size: 16px;
+}
+
+.section {
+    padding: 100px 0 50px 0;
 }
 
 footer div.row p, footer div.row ul > li {
-    font-size: 1.3vw;
+font-size: 1.3vw;
 }
 
 a.text-dark:hover, a.text-white:hover {
-    color: #ffff00 !important;
+color: #ffff00 !important;
 }
 
 .slick-slide img {
-    width: 100%;
+width: 100%;
 }
 
 @media screen and (max-width: 768px) {
     .top-header ul li a {
-        border: none;
-    }
+    border: none;
+}
 
     footer div.row p, footer div.row ul > li, .top-header ul li a {
-        font-size: 3.5vw;
-    }
+    font-size: 3.5vw;
+}
 }
 
 .margin-10 {
-    margin: 10px;
+margin: 10px;
 }
+
+.hero-slider {
+height: 600px;
+}
+
+.hero-slider > div.slick-list.draggable,
+.hero-slider > div.slick-list.draggable > div.slick-track {
+height: 100%;
+}
+
+.hero-content h4, .hero-content p {
+font-size: 4em;
+color: #fff;
+background-color: #0000008f;
+padding: 10px 15px;
+display: table;
+}
+
+.hero-content p {
+font-size: 2em;
+margin-top: 20px;
+}
+
+.hero-content p > a {
+color: #fff
+}
+
+.hero-content p > a:hover {
+color: #e84444;
+}
+
+.card, .mechanical-design-electrical-design, .automation-production {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+text-align: center;
+padding-bottom: 20px;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: .25rem;
+}
+
+.card h2 {
+width: 95%;
+margin: 20px auto;
+}
+
+.card p, .automation-production p {
+width: 90%;
+margin: 0 auto 20px;
+font-size: 16px;
+}
+
+.mechanical-design-electrical-design {
+padding: 0;
+}
+
+.mechanical-design-electrical-design h2 {
+text-align: left;
+}
+
+.mechanical-design-electrical-design p {
+margin: 0 auto 20px;
+text-align: justify;
+font-size: 16px;
+}
+
+.automation-production h2,
+.automation-production h4 {
+margin: 20px auto;
+}
+
+.automation-production h3 {
+margin: 20px auto 0;
+}
+
+.automation-production p {
+margin-top: 20px;
+}
+
