@@ -9,9 +9,8 @@
                         <div class="col-lg-12">
                             <div class="hero-content">
                                 <h4 class="text-white font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">
-                                    {{ trans('messages.mechanical-design') }}
+                                    <a href="#mechanical-design">{{ trans('messages.mechanical-design') }}</a>
                                 </h4>
-
                                 <p class="text-green mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">
                                     <a href="#mechanical-design">{{ trans('messages.mechanical-design-title') }}</a>
                                 </p>
@@ -26,8 +25,9 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="hero-content">
-                                <h4 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">{{ trans('messages.automation-production') }}</h4>
-
+                                <h4 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">
+                                    <a href="#automation-production">{{ trans('messages.automation-production') }}</a>
+                                </h4>
                                 <p class="text-green mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">
                                     <a href="#automation-production">{{ trans('messages.food-industry-reengineering') }}</a>
                                 </p>
@@ -42,8 +42,9 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="hero-content">
-                                <h4 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">{{ trans('messages.outsourcing') }}</h4>
-
+                                <h4 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">
+                                    <a href="#outsourcing">{{ trans('messages.outsourcing') }}</a>
+                                </h4>
                                 <p class="text-green mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">
                                     <a href="#outsourcing">{{ trans('messages.outsourcing-title') }}</a>
                                 </p>
@@ -59,8 +60,9 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="hero-content">
-                                <h4 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown"
-                                    data-delay-in=".5">Consulting</h4>
+                                <h4 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">
+                                    <a href="#consulting">{{ trans('messages.consulting') }}</a>
+                                </h4>
                                 <p class="text-green mb-50" data-duration-in=".5" data-animation-in="fadeInDown"
                                    data-delay-in=".9">
                                     <a href="#consulting">{{ trans('messages.consulting-title') }}</a>
@@ -83,53 +85,44 @@
                 </div>
 
                 <!-- service item -->
-                <div class="col-md-12" style="margin-bottom: 20px">
+                <div class="col-xs-12" style="margin-bottom: 20px">
+                    <a id="mechanical-design"></a>
                     <div class="card">
-                        <img src="{{ URL::asset('images/services/md1.jpg') }}" alt="service-image" style="width:100%; height: 600px;" />
-
+                        {{--<img src="{{ URL::asset('images/services/md1.jpg') }}" alt="service-image" style="width:100%; height: 600px;" />--}}
                         <h2>{{ trans('messages.mechanical-design') }}</h2>
-
                         <p>{{ trans('messages.mechanical-design-title') }}</p>
                         <p>{!! nl2br(trans('messages.mechanical-design-text-1')) !!}</p>
-
                         <img src="{{ URL::asset('images/services/md2.jpg') }}" alt="service-image" style="width:100%; height: 500px;" />
-
                         <p>{{ trans('messages.mechanical-design-text-2') }}</p>
                     </div>
                 </div>
 
-                <div class="col-md-12" style="margin-bottom: 20px">
+                <div class="col-xs-12" style="margin-bottom: 20px">
                     <div class="mechanical-design-electrical-design">
-                        <div class="col-md-6" style="float: right;">
+                        <div class="col-md-6 col-xs-12" style="float: right;">
                             <h2>{{ trans('messages.mechanical-design-electrical-design') }}</h2>
-
                             <p>{!! nl2br(trans('messages.mechanical-design-text-3')) !!}</p>
                         </div>
-
-                        <div class="col-md-6" style="padding-left: 0;">
+                        <div class="col-md-6 col-xs-12" style="padding-left: 0;">
                             <img src="{{ URL::asset('images/services/ap1.jpg') }}" alt="service-image" style="width:100%; height: 300px;" />
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-12" style="margin-bottom: 20px">
+                <div class="col-md-12 col-xs-12" style="margin-bottom: 20px">
+                    <a id="automation-production"></a>
                     <div class="automation-production">
                         <h2>{{ trans('messages.automation-production') }}</h2>
-
                         <h4>{{ trans('messages.food-industry-reengineering') }}</h4>
-
-                        <div class="col-md-6" style="float: right;">
+                        <div class="col-md-6 col-xs-12" style="float: right;">
                             <div class="card">
                                 <img src="{{ URL::asset('images/services/ap3.png') }}" alt="service-image" style="width:100%; height: 500px;" />
-
                                 <h3>{{ trans('messages.donut') }}</h3>
                             </div>
                         </div>
-
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-xs-12">
                             <div class="card">
                                 <img src="{{ URL::asset('images/services/ap2.png') }}" alt="service-image" style="width:100%; height: 500px;" />
-
                                 <h3>{{ trans('messages.chocolate') }}</h3>
                             </div>
                         </div>
@@ -149,7 +142,6 @@
                         </div>
 
                         <h3 style="margin-bottom: 20px;">{{ trans('messages.gripper') }}</h3>
-
                         <div class="col-md-6" style="float: right;">
                             <div class="card">
                                 <img src="{{ URL::asset('images/services/ap7.png') }}" alt="service-image" style="width:100%; height: 500px;" />
@@ -246,7 +238,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-12" style="margin-bottom: 20px">
+                <div class="col-xs-12" style="margin-bottom: 20px">
+                    <a id="outsourcing"></a>
                     <div class="mechanical-design-electrical-design">
                         <h2 style="text-align: center; margin: 20px 0;">{{ trans('messages.outsourcing') }}</h2>
 
@@ -263,10 +256,10 @@
                     </div>
                 </div>
 
-                <div class="col-md-12" style="margin-bottom: 20px">
+                <div class="col-xs-12" style="margin-bottom: 20px">
+                    <a id="consulting"></a>
                     <div class="card">
                         <h2>{{ trans('messages.consulting') }}</h2>
-
                         <p>{!! nl2br(trans('messages.consulting-text')) !!}</p>
                     </div>
                 </div>

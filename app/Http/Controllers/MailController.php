@@ -43,14 +43,17 @@ class MailController extends Controller
             // Give it a body
             ->setBody($body, 'text/html');
 
-        $status = 'success';
-        $text   = 'Thanks for contacting us!';
+//        $locale = \App::getLocale();
 
-        // Pass a variable name to the send() method
-        if (!$mailer->send($message, $failures)) {
-            Log::stack(['daily', 'slack'])->error($failures);
+        $status = 'success';
+        $text   = trans('messages.thanks-for-contacting-us');
+
+        try {
+            $mailer->send($message);
+        } catch (\Exception $e) {
+            Log::stack(['daily', 'slack'])->error($e->getMessage());
             $status = 'error';
-            $text   = 'Something has wrong.';
+            $text   = trans('messages.something-has-wrong');
         }
 
         return redirect()->back()->with($status, $text);

@@ -80,27 +80,31 @@ Performance 600-800 Tables per hour.',
     • Realistic Mechanical 3D Product Animation
 ',
 
-    'consulting'                          => 'Consulting',
-    'consulting-text-1'                   => 'KAME engineering Ltd. is a dynamic and focused company that has been offering mechanical engineering solutions and value-added services for over 8 years. Our mechanical engineers have expertise in analyzing, designing, manufacturing, and maintaining all sorts of mechanical systems.
+    'consulting'               => 'Consulting',
+    'consulting-text-1'        => 'KAME engineering Ltd. is a dynamic and focused company that has been offering mechanical engineering solutions and value-added services for over 8 years. Our mechanical engineers have expertise in analyzing, designing, manufacturing, and maintaining all sorts of mechanical systems.
 Outsourcing mechanical engineering requirements allows companies to stay competitive by optimizing their product engineering and R&D services and shortening product development cycle. Our success stems from the fact that we constantly strive to maximize productivity and deliver unmatched mechanical engineering solutions that are customized, and solve problems effortlessly.',
-    'consulting-title'                    => 'What is it Like to be a Mechanical Engineering Consultant?',
-    'consulting-text'                     => 'As a mechanical engineering consultant, most of your activities will revolve around solving problems in real-world scenarios. Learning these skills is imperative given the fact that the program itself focuses on core areas like electro-mechanical devices, instrumentation and controls, mechanical design and analysis, material science and manufacturing process, as well as computer-aided engineering graphics and analysis.',
+    'consulting-title'         => 'What is it Like to be a Mechanical Engineering Consultant?',
+    'consulting-text'          => 'As a mechanical engineering consultant, most of your activities will revolve around solving problems in real-world scenarios. Learning these skills is imperative given the fact that the program itself focuses on core areas like electro-mechanical devices, instrumentation and controls, mechanical design and analysis, material science and manufacturing process, as well as computer-aided engineering graphics and analysis.',
 
     // Menu - services
-    'projects'                            => 'Projects',
-    'home'                                => 'Home',
-    'proj1'                               => 'Special Nylon Sleeve assembly  work station',
-    'proj2'                               => 'Semi Automated assembly line',
-    'proj3'                               => 'Glass Bottle separating Conveyer',
-    'proj4'                               => 'Fully Automated Glass Bottle Loader',
-    'proj5'                               => 'Fully automatted Drilling and imbedding line',
-    'proj6'                               => 'Gentry with Spindles',
-    'proj7'                               => 'Brown gas yelding system from Sea Water',
-    'proj8'                               => 'Stainless steel Glass Botle Conveyer',
-    'proj9'                               => 'Custom Design Lift Platform',
-    'proj10'                              => 'Roller Conveyoring System',
-    'proj11'                              => 'Passive Roller Conveyor',
-    'proj12'                              => 'Active Roller Conveyor',
-    'proj13'                              => 'Passive Roller Conveyor',
+    'projects'                 => 'Projects',
+    'home'                     => 'Home',
+    'proj1'                    => 'Special Nylon Sleeve assembly  work station',
+    'proj2'                    => 'Semi Automated assembly line',
+    'proj3'                    => 'Glass Bottle separating Conveyer',
+    'proj4'                    => 'Fully Automated Glass Bottle Loader',
+    'proj5'                    => 'Fully automatted Drilling and imbedding line',
+    'proj6'                    => 'Gentry with Spindles',
+    'proj7'                    => 'Brown gas yelding system from Sea Water',
+    'proj8'                    => 'Stainless steel Glass Botle Conveyer',
+    'proj9'                    => 'Custom Design Lift Platform',
+    'proj10'                   => 'Roller Conveyoring System',
+    'proj11'                   => 'Passive Roller Conveyor',
+    'proj12'                   => 'Active Roller Conveyor',
+    'proj13'                   => 'Passive Roller Conveyor',
+
+    //mail
+    'thanks-for-contacting-us' => 'Thanks for contacting us!',
+    'something-has-wrong'      => 'Something has wrong!',
 
 ];
