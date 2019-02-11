@@ -15,7 +15,7 @@ class MailController extends Controller
     {
         Log::info($request->all());
 
-        $user = User::findOrFail(1);
+        $user = User::findOrFail(2);
 
 //        You can also use Sendmail as a transport:
 //        $transport = new Swift_SendmailTransport('/usr/sbin/sendmail -bs');
