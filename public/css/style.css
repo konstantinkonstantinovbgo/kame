@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:300,400,500,600,700|Work+Sans:400,500,600");
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:300,400,500,600,700|Work+Sans:400,500,600");*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
@@ -11,13 +11,13 @@ p, .paragraph {
   color: #666;
   font-size: 14px;
   line-height: 25px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1, .h1 {
@@ -53,7 +53,7 @@ h6, .h6 {
 /* 1.3 Button style */
 .btn {
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 35px;
@@ -245,7 +245,7 @@ button {
 
 .section-title-sm {
   margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   color: #666;
 }
@@ -442,7 +442,7 @@ button {
 .breadcrumb li,
 .breadcrumb a {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   font-size: 12px;
   margin: 0 10px;
@@ -620,11 +620,11 @@ button {
 }
 
 .font-primary {
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .font-secondary {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .mb-10 {
@@ -821,7 +821,7 @@ button {
 
 .navigation .navbar .nav-item .nav-link {
   padding: 15px 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   color: #222;
   text-transform: uppercase;
@@ -1210,7 +1210,7 @@ button {
 /* 5. progrgess bar start */
 .progressbar-title {
   font-size: 17px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   margin-bottom: 7px;
   color: #222 !important;
 }
@@ -1229,7 +1229,7 @@ button {
 }
 
 .progress-bar-value {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   color: #fff;
   background: #303032;
@@ -1265,7 +1265,7 @@ button {
 }
 
 .promo-video p {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* promo video section end */
@@ -1517,7 +1517,7 @@ button {
   text-align: center;
   background: #fff;
   box-shadow: -5px 0px 40px 0px rgba(0, 0, 0, 0.1);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 700;
   font-size: 28px;
   color: #222;
@@ -1826,7 +1826,7 @@ img.arrow-bottom {
   color: #222;
   transition: .2s ease;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .nav-tabs .nav-item .active {
@@ -1853,7 +1853,7 @@ img.arrow-bottom {
 }
 
 .tab-content-item h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   font-size: 14px;
   color: #222;
@@ -1880,7 +1880,7 @@ img.arrow-bottom {
   background: transparent;
   border: none;
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   transition: .3s ease;
 }
@@ -2046,7 +2046,7 @@ ul.tag-list li a:hover {
   height: 40px;
   margin-bottom: 15px;
   border: 1px solid #e5e5e5;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   font-size: 14px;
   color: #666;
@@ -2397,7 +2397,7 @@ ul.tag-list li a:hover {
 
 .footer-links li a {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
   transition: .2s ease;
   display: block;
