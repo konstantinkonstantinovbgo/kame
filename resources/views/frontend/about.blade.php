@@ -30,7 +30,7 @@
                         id est laborum.</p>
                     <p>Sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque
                         ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-primary">Explore More</a>
+                    {{--<a href="#" class="btn btn-primary">Explore More</a>--}}
                 </div>
                 <!-- philosophy image -->
                 <div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
@@ -56,9 +56,9 @@
                             ex commodo consequat. duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat
                             nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit
                             anim id est laborum.</p>
-                        <img src="{{ URL::asset('images/about/ceo-signature.png') }}" alt="ceo-signature">
-                        <h5 class="text-white">John Doe</h5>
-                        <h6 class="text-white">CEO</h6>
+                        {{--<img src="{{ URL::asset('images/about/ceo-signature.png') }}" alt="ceo-signature">--}}
+                        <h5 class="text-white">Plamen Kamenarov</h5>
+                        <h6 class="text-white">CTO</h6>
                     </div>
                 </div>
             </div>

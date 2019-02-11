@@ -35,8 +35,8 @@
                         <li class="d-flex mb-30">
                             <i class="round-icon mr-3 ti-email"></i>
                             <div class="align-self-center font-primary">
-                                <a href="mailto:support@kameengineering.com">
-                                    <p>support@kameengineering.com</p>
+                                <a href="mailto:office@kameengineering.com">
+                                    <p>office@kameengineering.com</p>
                                 </a>
                             </div>
                         </li>

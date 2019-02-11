@@ -1,6 +1,15 @@
 <?php
 
 return [
+    // Menu
+    'menu'                                => [
+        'home'     => 'Home',
+        'service'  => 'Service',
+        'projects' => 'Projects',
+        'about'    => 'About',
+        'contact'  => 'Contact',
+        'quote'    => 'get instant quote',
+    ],
     // Menu - home
     'smart-solution'                      => 'KAME Engineering give the smart solution for your business',
     'introduction2'                       => 'KAME engineering Ltd. is an Engineering, Consultancy, Manufacturing and Outsourcing Company since 2011. Our scope is to provide our products and services  in Europe and Overseas.
@@ -12,7 +21,7 @@ Welcome to our web-site, enjoy the hospitality and discover more about our missi
 
 Sincerely
 
-Plamen Ch. Kamenarov,   MEng.
+dipl.eng. Plamen Kamenarov
 Founder  – CTO',
     'introduction'                        => 'KAME engineering has been an engineering company for mechanical engineering since 2011. Many years of experience of the owner and entrepreneur eng. Plamen Kamenarov, and our employees and are the prerequisite for our business activities. 
 
@@ -33,7 +42,7 @@ Calculations, FEM analyzes, event analyzes and dynamic simulations are possible 
     // Menu - services
     'best-service'                        => 'Best Service',
     'service-we-provide'                  => 'Service We Provide',
-    'mechanical-design'                   => 'Mechanical Design',
+    'mechanical-design'                   => 'Mechanical - Electrical Design',
     'mechanical-design-title'             => 'Providing a direct connection between the design of electrical and mechanical systems',
     'mechanical-design-electrical-design' => 'Mechanical - Electrical Design',
     'mechanical-design-text-1'            => '
@@ -41,9 +50,8 @@ Design Interoperability
 It’s no secret that products today are increasingly complex with many, if not most, reliant on integrated electronics. 
 It is critical that designers of both systems collaborate throughout the development process in order to prevent conflicts and ensure alignment between each system prior to design completion.',
     'mechanical-design-text-2'            => 'Our product delivers a unified platform for electromechanical design. An efficient ECAD-MCAD co-design process enables you to eliminate costly electromechanical issues during new product development by giving a holistic view.',
-    'mechanical-design-text-3'            => 'Integrating mechanical, electronic and electrical components in electromechanical products is crucial to aerospace, automotive, electronics, machinery and medical device manufacturers.
- These manufacturers are challenged to transform their development processes to concurrent design and systems engineering methods that support collaboration among diverse disciplines.',
-    'automation-production'               => 'Automation Production',
+    'mechanical-design-text-3'            => 'Integrating mechanical, electronic and electrical components in electromechanical products is crucial to aerospace, automotive, electronics, machinery and medical device manufacturers. These manufacturers are challenged to transform their development processes to concurrent design and systems engineering methods that support collaboration among diverse disciplines.',
+    'automation-production'               => 'Industrial Automation',
     'food-industry-reengineering'         => 'Food Industry reengineering',
     'chocolate'                           => 'Chocolate TEMPERER – MOULDER ',
     'donut'                               => 'Donut Dispenser',

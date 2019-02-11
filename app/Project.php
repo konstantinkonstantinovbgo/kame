@@ -35,7 +35,7 @@ class Project extends Model
     ];
 
     public static $category = ["Mechanical Design"     => "Mechanical Design",
-                               "Automation Production" => "Automation Production",
+                               "Automation Production" => "Industrial Automation",
                                "Outsourcing"           => "Outsourcing",
                                "Consulting"            => "Consulting"
     ];

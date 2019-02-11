@@ -99,32 +99,32 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item @if (Route::currentRouteName() === 'home') active @endif">
                             <a class="nav-link" href="{{ route('home') }}">
-                                Home
+                                {{ trans('messages.menu.home') }}
                             </a>
                         </li>
                         <li class="nav-item @if (Route::currentRouteName() === 'services') active @endif">
                             <a class="nav-link" href="{{ route('services') }}">
-                                Service & Support
+                                {{ trans('messages.menu.service') }}
                             </a>
                         </li>
                         <li class="nav-item @if (Route::currentRouteName() === 'projects') active @endif">
                             <a class="nav-link" href="{{ route('projects') }}">
-                                Projects
+                                {{ trans('messages.menu.projects') }}
                             </a>
                         </li>
                         <li class="nav-item @if (Route::currentRouteName() === 'about') active @endif">
                             <a class="nav-link" href="{{ route('about') }}" role="button">
-                                About
+                                {{ trans('messages.menu.about') }}
                             </a>
                         </li>
                         <li class="nav-item @if (Route::currentRouteName() === 'contact') active @endif">
                             <a class="nav-link" href="{{ route('contact') }}" role="button">
-                                Contact
+                                {{ trans('messages.menu.contact') }}
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn btn-primary btn-sm" href="{{ route('contact') }}">
-                                    get instant quote
+                                {{ trans('messages.menu.quote') }}
                             </a>
                         </li>
                     </ul>

@@ -21,7 +21,7 @@ class CreateProjectTable extends Migration {
             $table->string("client_name")->nullable();
             $table->string("project_name")->nullable();
             $table->date("created_date")->nullable();
-            $table->enum("category", ["Mechanical Design", "Automation Production", "Outsourcing", "Consulting"])->nullable();
+            $table->enum("category", ["Mechanical Design", "Industrial Automation", "Outsourcing", "Consulting"])->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
