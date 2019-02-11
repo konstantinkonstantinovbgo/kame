@@ -89,8 +89,8 @@
                     <a id="mechanical-design"></a>
                     <div class="card">
                         <h2>{{ trans('messages.mechanical-design') }}</h2>
-                        <p>{{ trans('messages.mechanical-design-title') }}</p>
-                        <p>{!! nl2br(trans('messages.mechanical-design-text-1')) !!}</p>
+                        {{ trans('messages.mechanical-design-title') }}
+                        {!! nl2br(trans('messages.mechanical-design-text-1')) !!}
                         <img src="{{ URL::asset('images/services/md2.jpg') }}" alt="service-image" class="img-center" style="width: 65%;"/>
                         <p>{{ trans('messages.mechanical-design-text-2') }}</p>
                         <p>{!! nl2br(trans('messages.mechanical-design-text-3')) !!}</p>
@@ -134,7 +134,7 @@
                             <p></p>
                             <p>{!! nl2br(trans('messages.outsourcing-text-1')) !!}</p>
                             <p>{!! nl2br(trans('messages.outsourcing-text-2')) !!}</p>
-                            <br /><br /><br /><br />
+                            <br /><br /><br /><br /><br />
                         </div>
                     </div>
                 </div>
