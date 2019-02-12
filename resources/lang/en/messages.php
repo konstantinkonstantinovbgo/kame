@@ -165,4 +165,5 @@ Outsourcing mechanical engineering requirements allows companies to stay competi
     // pae: about
     'know-about'       => 'Know About',
     'our-philosophy'   => 'Our Philosophy',
+    'dipl-eng'         => 'dipl.eng. Plamen Kamenarov',
 ];

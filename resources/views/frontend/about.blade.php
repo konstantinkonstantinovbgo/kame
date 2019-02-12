@@ -31,7 +31,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-7 order-2 order-lg-1">
-                    <h5 class="section-title-sm">dipl.eng. Plamen Kamenarov</h5>
+                    <h5 class="section-title-sm">{{ trans('messages.dipl-eng') }}</h5>
                     <h6 class="section-title-sm">CTO</h6>
                 </div>
             </div>
