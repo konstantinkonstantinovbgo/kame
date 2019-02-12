@@ -89,12 +89,11 @@
                     <a id="mechanical-design"></a>
                     <div class="card">
                         <h2>{{ trans('messages.mechanical-design') }}</h2>
+                        <img src="{{ URL::asset('images/services/md2.jpg') }}" alt="service-image" class="img-center" style="width: 65%;"/>
                         {{ trans('messages.mechanical-design-title') }}
                         {!! nl2br(trans('messages.mechanical-design-text-1')) !!}
-                        <img src="{{ URL::asset('images/services/md2.jpg') }}" alt="service-image" class="img-center" style="width: 65%;"/>
                         <p>{{ trans('messages.mechanical-design-text-2') }}</p>
                         <p>{!! nl2br(trans('messages.mechanical-design-text-3')) !!}</p>
-                        <p>{!! nl2br(trans('messages.mechanical-design-text-4')) !!}</p>
                     </div>
                 </div>
 
@@ -103,19 +102,7 @@
                     <div class="automation-production">
                         <h2>{{ trans('messages.automation-production') }}</h2>
                         <img src="{{ URL::asset('images/services/industrial-automation.jpg') }}" alt="service-image" class="img-center" style="width:65%;" />
-                        {{--<h4>{{ trans('messages.food-industry-reengineering') }}</h4>--}}
-                        {{--<div class="col-md-6 col-xs-12" style="float: right;">--}}
-                            {{--<div class="card">--}}
-                                {{--<img src="{{ URL::asset('images/services/ap3.png') }}" alt="service-image" style="width:100%; height: 500px;" />--}}
-                                {{--<h3>{{ trans('messages.donut') }}</h3>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6 col-xs-12">--}}
-                            {{--<div class="card">--}}
-                                {{--<img src="{{ URL::asset('images/services/ap2.png') }}" alt="service-image" style="width:100%; height: 500px;" />--}}
-                                {{--<h3>{{ trans('messages.chocolate') }}</h3>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
+                        <p>{!! nl2br(trans('messages.automation-production-text-4')) !!}</p>
                     </div>
                 </div>
 
