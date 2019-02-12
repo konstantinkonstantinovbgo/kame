@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 
 @section('content')
-    <section class="page-title overlay" style="background-image: url({{ URL::asset('images/contact/page-title.jpg') }});">
+    <section class="page-title overlay" style="background-image: url({{ URL::asset('images/home/I4.0-topics.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -21,7 +21,7 @@
     <section class="section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 order-2 order-lg-1">
+                <div class="col-lg-12 order-2 order-lg-1">
                     <h5 class="section-title-sm">Know About</h5>
                     <h2 class="section-title section-title-border-half">Our Philosophy</h2>
                     @for ($i = 1; $i <= 20; $i++)
@@ -30,12 +30,9 @@
                 </div>
 
                 <!-- philosophy image -->
-                <div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
-                    <img class="img-fluid w-100" src="{{ URL::asset('images/about/philosophy.jpg') }}" alt="philosophy-image">
-                    @for ($i = 1; $i <= 20; $i++)
-                        <p>&nbsp;</p>
-                    @endfor
-                </div>
+                {{--<div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">--}}
+                    {{--<img class="img-fluid w-100" src="{{ URL::asset('images/about/philosophy.jpg') }}" alt="philosophy-image">--}}
+                {{--</div>--}}
             </div>
             <div class="row">
                 <div class="col-lg-7 order-2 order-lg-1">

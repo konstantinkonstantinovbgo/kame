@@ -80,18 +80,18 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center">
-                    <h5 class="section-title-sm">{{ trans('messages.best-service') }}</h5>
-                    <h2 class="section-title section-title-border">{{ trans('messages.service-we-provide') }}</h2>
+                    <h4 class="section-title-sm">{{ trans('messages.best-service') }}</h4>
+                    <h4 class="section-title section-title-border">{{ trans('messages.service-we-provide') }}</h4>
                 </div>
 
                 <!-- service item -->
                 <div class="col-xs-12" style="margin: 10px">
                     <a id="mechanical-design"></a>
                     <div class="card">
-                        <h2>{{ trans('messages.mechanical-design') }}</h2>
+                        <h4>{{ trans('messages.mechanical-design') }}</h4>
                         <img src="{{ URL::asset('images/services/md2.jpg') }}" alt="service-image" class="img-center" style="width: 65%;"/>
-                        {{ trans('messages.mechanical-design-title') }}
-                        {!! nl2br(trans('messages.mechanical-design-text-1')) !!}
+                        <p>{{ trans('messages.mechanical-design-title') }}</p>
+                        <p>{!! nl2br(trans('messages.mechanical-design-text-1')) !!}</p>
                         <p>{{ trans('messages.mechanical-design-text-2') }}</p>
                         <p>{!! nl2br(trans('messages.mechanical-design-text-3')) !!}</p>
                     </div>
@@ -100,7 +100,7 @@
                 <div class="col-md-12 col-xs-12" style="margin: 10px">
                     <a id="automation-production"></a>
                     <div class="automation-production">
-                        <h2>{{ trans('messages.automation-production') }}</h2>
+                        <h4>{{ trans('messages.automation-production') }}</h4>
                         <img src="{{ URL::asset('images/services/industrial-automation.jpg') }}" alt="service-image" class="img-center" style="width:65%;" />
                         <p>{!! nl2br(trans('messages.automation-production-text-4')) !!}</p>
                     </div>
@@ -109,7 +109,7 @@
                 <div class="col-xs-12" style="margin: 10px">
                     <a id="outsourcing"></a>
                     <div class="mechanical-design-electrical-design">
-                        <h2 style="text-align: center; margin: 20px 0;">{{ trans('messages.outsourcing') }}</h2>
+                        <h4 style="text-align: center; margin: 20px 0;">{{ trans('messages.outsourcing') }}</h4>
                         <div class="col-md-12">
                             <img src="{{ URL::asset('images/services/outsourcing.jpg') }}" alt="service-image" class="img-center" style="width:65%;" />
                         </div>
@@ -130,7 +130,7 @@
                 <div class="col-xs-12" style="margin: 10px">
                     <a id="consulting"></a>
                     <div class="card">
-                        <h2>{{ trans('messages.consulting') }}</h2>
+                        <h4>{{ trans('messages.consulting') }}</h4>
                         <p>
                         <img src="{{ URL::asset('images/services/consulting.png') }}" alt="service-image" class="img-center" style="width:65%;" />
                         </p>
