@@ -19,7 +19,7 @@ function initialize() {
     // Multiple Markers
     var markers = [
         ['OFFICE bul. Ruski 46 fl.2 of. 1 Plovdiv 4002', 42.1476831, 24.7409004],
-        ['PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA', 42.051010, 24.768830]
+        ['PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA 15', 42.051010, 24.768830]
     ];
 
     // Info Window Content
@@ -28,7 +28,7 @@ function initialize() {
         '<h3>OFFICE bul. Ruski 46 fl.2 of. 1 Plovdiv 4002</h3>' +
         '</div>'],
         ['<div class="info_content">' +
-        '<h3>PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA</h3>' +
+        '<h3>PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA 15</h3>' +
         '</div>']
     ];
 

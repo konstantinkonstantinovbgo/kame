@@ -99,18 +99,30 @@ Outsourcing mechanical engineering requirements allows companies to stay competi
     'projects'                 => 'Projects',
     'home'                     => 'Home',
     'proj1'                    => 'Semi Automated assembly line',
-    'proj2'                    => 'Special Nylon Sleeve assembly  work station',
+    'proj1-tech-data'          => '
+    - Two Timing belt driven Conveyors with high rpm Spindles ( X, Y and Z motion ) -fully automated 
+    - Four Vibro-feeders for plastic parts ( angles and caps ) -fully automated 
+    - One Assembling pneumatic Table ( 1200 x 800 ) with vacuum Plate- semi automatic 
+    - Five Belt Conveyors ( different length ) semi automatic 
+
+    Performance 600-800 Tables per hour.',
+    //    'proj2'                    => 'Special Nylon Sleeve assembly  work station',
     'proj3'                    => 'Glass Bottle separating Conveyer',
+    'proj3-tech-data'          => 'Conveyor speed from 50-250mm/s, Servo drive separator, plus servo geared drive Bottle Gripper. Easy, fast and flexible resetting for different bottles.',
     'proj4'                    => 'Fully Automated Glass Bottle Loader',
-    'proj5'                    => 'Fully automatted Drilling and imbedding line',
-    'proj6'                    => 'Gentry with Spindles',
+    'proj4-tech-data'          => '',
+    //    'proj5'                    => 'Fully automatted Drilling and imbedding line',
+    //    'proj6'                    => 'Gentry with Spindles',
     'proj7'                    => 'Brown gas yelding system from Sea Water',
+    'proj7-tech-data'          => '', // wait text
     'proj8'                    => 'Stainless steel Glass Botle Conveyer',
-    'proj9'                    => 'Custom Design Lift Platform',
+    'proj8-tech-data'          => 'Stainless steel belts, Linear speed from 50-250 mm/s, automatic leveling from 650-950mm',
+    //    'proj9'                    => 'Custom Design Lift Platform',
     'proj10'                   => 'Roller Conveyoring System',
-    'proj11'                   => 'Passive Roller Conveyor',
-    'proj12'                   => 'Active Roller Conveyor',
-    'proj13'                   => 'Passive Roller Conveyor',
+    'proj10-tech-data'         => '', // wait text
+    //    'proj11'                   => 'Passive Roller Conveyor',
+    //    'proj12'                   => 'Active Roller Conveyor',
+    'technical-data'           => 'Technical data',
 
     //mail
     'thanks-for-contacting-us' => 'Thanks for contacting us!',

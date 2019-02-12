@@ -44,7 +44,7 @@
                             <i class="round-icon mr-3 ti-map-alt"></i>
                             <div class="align-self-center font-primary">
                                 <p>OFFICE bul. Ruski 46 fl.2 of. 1 Plovdiv 4002 </p>
-                                <p>PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA</p>
+                                <p>PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA 15</p>
                                 <p>BULGARIA</p>
                             </div>
                         </li>
