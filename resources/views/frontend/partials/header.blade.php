@@ -8,6 +8,8 @@
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {{--<meta name="description" content="" />--}}
+    {{--<meta name="google-site-verification" content=""/>--}}
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}">

@@ -25,7 +25,7 @@
                 <div class="col-lg-12 order-lg-2 order-1 margin-10">
                     <div class="card text-center">
                         <h4 class="mb-10 margin-10">{{ trans('messages.proj1') }}</h4>
-                        <p><img src="{{ URL::asset('images/projects/1.png') }}" class="img-center" style="width: 50%;"></p>
+                        <p><img src="{{ URL::asset('images/projects/1.png') }}" class="img-center" style="width: 65%;"></p>
                         <div class="row">
                             <div class="col-lg-4">
                                 <img src="{{ URL::asset('images/projects/1a.png') }}" style="width: 90%;">

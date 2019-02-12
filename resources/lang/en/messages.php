@@ -160,6 +160,9 @@ Outsourcing mechanical engineering requirements allows companies to stay competi
     'about-us-text-17' => '<b>• High Initial cost</b>',
     'about-us-text-18' => 'The initial investment associated with the making the switch from a human production line to an automatic production line is very high. Also, substantial costs are involved in training employees to handle this new sophisticated equipment.',
     'about-us-text-19' => '<b>Conclusion</b>',
-    'about-us-text-20' => 'Industrial automation has recently found more and more acceptance from various industries because of its huge benefits, such as, increased productivity, quality and safety at low costs.
-',
+    'about-us-text-20' => 'Industrial automation has recently found more and more acceptance from various industries because of its huge benefits, such as, increased productivity, quality and safety at low costs.',
+
+    // pae: about
+    'know-about'       => 'Know About',
+    'our-philosophy'   => 'Our Philosophy',
 ];
