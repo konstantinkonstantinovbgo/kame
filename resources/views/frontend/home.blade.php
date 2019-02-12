@@ -4,7 +4,8 @@
     <section class="cta py-50 text-center text-lg-left">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-12 no-padding">
+                <div class="col-lg-12 no-padding font-size-21">
+                    1
                     {!! nl2br(trans('messages.introduction')) !!}
                 </div>
             </div>
@@ -17,7 +18,7 @@
                 <div class="col-lg-3">
                     <img src="{{ URL::asset('images/home/plamen-kamenarov.jpg') }}" alt="Plamen Kamenarov" height="200" width="200">
                 </div>
-                <div class="col-lg-9 text-center text-lg-left">
+                <div class="col-lg-9 text-center text-lg-left font-size-21">
                     {!! nl2br(trans('messages.introduction2')) !!}
                 </div>
             </div>

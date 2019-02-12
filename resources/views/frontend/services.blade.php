@@ -80,8 +80,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center">
-                    <h4 class="section-title-sm">{{ trans('messages.best-service') }}</h4>
-                    <h4 class="section-title section-title-border">{{ trans('messages.service-we-provide') }}</h4>
+                    <h3 class="section-title-sm">{{ trans('messages.best-service') }}</h3>
+                    <h3 class="section-title section-title-border">{{ trans('messages.service-we-provide') }}</h3>
                 </div>
 
                 <!-- service item -->

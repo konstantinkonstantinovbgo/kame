@@ -132,7 +132,7 @@ a.text-dark:hover, a.text-white:hover {
 .card p, .automation-production p {
     width: 90%;
     margin: 0 auto 20px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .mechanical-design-electrical-design {
@@ -165,4 +165,8 @@ a.text-dark:hover, a.text-white:hover {
 .img-center {
     display: block;
     margin: 0 auto;
+}
+
+.font-size-21 {
+    font-size: 21px;
 }
