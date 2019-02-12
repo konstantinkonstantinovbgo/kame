@@ -5,7 +5,6 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-12 no-padding font-size-21">
-                    1
                     {!! nl2br(trans('messages.introduction')) !!}
                 </div>
             </div>
