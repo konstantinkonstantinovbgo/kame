@@ -33,9 +33,7 @@
                 <div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
                     <img class="img-fluid w-100" src="{{ URL::asset('images/about/philosophy.jpg') }}" alt="philosophy-image">
                     @for ($i = 1; $i <= 20; $i++)
-                        <p>
-                           &nbsp;
-                        </p>
+                        <p>&nbsp;</p>
                     @endfor
                 </div>
             </div>
