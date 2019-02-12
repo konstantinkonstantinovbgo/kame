@@ -10,7 +10,7 @@
                         <li>
                             <a href="{{ route('home') }}">Home</a>
                         </li>
-                        <li>Contact Us</li>
+                        <li>{{ trans('messages.contact-us') }}</li>
                     </ol>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                         <li class="d-flex mb-30">
                             <i class="round-icon mr-3 ti-map-alt"></i>
                             <div class="align-self-center font-primary">
-                                <p>OFFICE PLOVDIV 4002 24 GEN. DANAIL NIKOLAEV STR. </p>
+                                <p>OFFICE bul. Ruski 46 fl.2 of. 1 Plovdiv 4002 </p>
                                 <p>PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA</p>
                                 <p>BULGARIA</p>
                             </div>

@@ -4,7 +4,7 @@ return [
     // Menu
     'menu'                                => [
         'home'     => 'Home',
-        'service'  => 'Service',
+        'services' => 'Services',
         'projects' => 'Projects',
         'about'    => 'About',
         'contact'  => 'Contact',
@@ -51,6 +51,7 @@ It’s no secret that products today are increasingly complex with many, if not 
 It is critical that designers of both systems collaborate throughout the development process in order to prevent conflicts and ensure alignment between each system prior to design completion.',
     'mechanical-design-text-2'            => 'Our product delivers a unified platform for electromechanical design. An efficient ECAD-MCAD co-design process enables you to eliminate costly electromechanical issues during new product development by giving a holistic view.',
     'mechanical-design-text-3'            => 'Integrating mechanical, electronic and electrical components in electromechanical products is crucial to aerospace, automotive, electronics, machinery and medical device manufacturers. These manufacturers are challenged to transform their development processes to concurrent design and systems engineering methods that support collaboration among diverse disciplines.',
+    'mechanical-design-text-4'            => 'Recent advancements in automation in industrial production are focused on flexibility and quality. Manufacturing flexibility not only allows for more product types, but also lets consumers order customized products that are automatically produced.',
     'automation-production'               => 'Industrial Automation',
     'food-industry-reengineering'         => 'Food Industry reengineering',
     'chocolate'                           => 'Chocolate TEMPERER – MOULDER ',
@@ -111,8 +112,34 @@ Outsourcing mechanical engineering requirements allows companies to stay competi
     'proj12'                   => 'Active Roller Conveyor',
     'proj13'                   => 'Passive Roller Conveyor',
 
+
     //mail
     'thanks-for-contacting-us' => 'Thanks for contacting us!',
     'something-has-wrong'      => 'Something has wrong!',
 
+    'contact-us'      => 'Contact Us',
+    'about-us'        => 'About Us',
+
+    // Menu - services
+    'about-us-text-1' => 'Industrial automation is the use of control systems, such as computers or robots, and information technologies for handling different processes and machineries in an industry to replace a human being. It is the second step beyond mechanization in the scope of industrialization.',
+    'about-us-text-2' => '<b>Increase Quality and Flexibility in Your Manufacturing Process</b>',
+    'about-us-text-3' => 'Earlier the purpose of automation was to increase productivity (since automated systems can work 24 hours a day), and to reduce the cost associated with human operators (i.e. wages & benefits). However, today, the focus of automation has shifted to increasing quality and flexibility in a manufacturing process. In the automobile industry, the installation of pistons into the engine used to be performed manually with an error rate of 1-1.5%. Presently, this task is performed using automated machinery with an error rate of 0.00001%.',
+    'about-us-text-4' => '<b>Advantages of Industrial Automation</b>',
+    'about-us-text-5' => 'Lower operating cost: Industrial automation eliminates healthcare costs and paid leave and holidays associated with a human operator. Further, industrial automation does not require other employee benefits such as bonuses, pension coverage etc. Above all, although it is associated with a high initial cost it saves the monthly wages of the workers which leads to substantial cost savings for the company. The maintenance cost associated with machinery used for industrial automation is less because it does not often fail. If it fails, only computer and maintenance engineers are required to repair it.',
+    'about-us-text-6' => '<b>• High productivity</b>',
+    'about-us-text-7' => 'Although many companies hire hundreds of production workers for a up to three shifts to run the plant for the maximum number of hours, the plant still needs to be closed for maintenance and holidays. Industrial automation fulfills the aim of the company by allowing the company to run a manufacturing plant for 24 hours in a day 7 days in a week and 365 days a year. This leads to a significant improvement in the productivity of the company.',
+    'about-us-text-8' => '<b>• High Quality</b>',
+    'about-us-text-9' => 'Automation alleviates the error associated with a human being. Further, unlike human beings, robots do not involve any fatigue, which results in products with uniform quality manufactured at different times.',
+    'about-us-text-10' => '<b>• High flexibility</b>',
+    'about-us-text-11' => 'Adding a new task in the assembly line requires training with a human operator, however, robots can be programmed to do any task. This makes the manufacturing process more flexible.',
+    'about-us-text-12' => '<b>• High Information Accuracy</b>',
+    'about-us-text-13' => 'Adding automated data collection, can allow you to collect key production information, improve data accuracy, and reduce your data collection costs.  This provides you with the facts to make the right decisions when it comes to reducing waste and improving your processes.',
+    'about-us-text-14' => '<b>• High safety</b>',
+    'about-us-text-15' => 'Industrial automation can make the production line safe for the employees by deploying robots to handle hazardous conditions.',
+    'about-us-text-16' => 'Disadvantages of Industrial Automation',
+    'about-us-text-17' => '<b>• High Initial cost</b>',
+    'about-us-text-18' => 'The initial investment associated with the making the switch from a human production line to an automatic production line is very high. Also, substantial costs are involved in training employees to handle this new sophisticated equipment.',
+    'about-us-text-19' => '<b>Conclusion</b>',
+    'about-us-text-20' => 'Industrial automation has recently found more and more acceptance from various industries because of its huge benefits, such as, increased productivity, quality and safety at low costs.
+',
 ];

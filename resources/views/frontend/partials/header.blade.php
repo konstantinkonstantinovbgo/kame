@@ -104,7 +104,7 @@
                         </li>
                         <li class="nav-item @if (Route::currentRouteName() === 'services') active @endif">
                             <a class="nav-link" href="{{ route('services') }}">
-                                {{ trans('messages.menu.service') }}
+                                {{ trans('messages.menu.services') }}
                             </a>
                         </li>
                         <li class="nav-item @if (Route::currentRouteName() === 'projects') active @endif">

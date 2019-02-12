@@ -94,6 +94,7 @@
                         <img src="{{ URL::asset('images/services/md2.jpg') }}" alt="service-image" class="img-center" style="width: 65%;"/>
                         <p>{{ trans('messages.mechanical-design-text-2') }}</p>
                         <p>{!! nl2br(trans('messages.mechanical-design-text-3')) !!}</p>
+                        <p>{!! nl2br(trans('messages.mechanical-design-text-4')) !!}</p>
                     </div>
                 </div>
 
