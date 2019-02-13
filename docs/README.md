@@ -41,9 +41,58 @@ III. Projects page - structure:
             ```
         ---------------------------------
         
+    3. Languages:
+        ### The directory structure is:
+        ---------------------------------
+            ```
+            ├── resources/
+                └── lang/
+                    └── bg
+                        └── projects.php
+                        └── messages.php
+                    └── de
+                        └── projects.php
+                        └── messages.php
+                    └── en
+                        └── projects.php
+                        └── messages.php
+            ```
+        ---------------------------------
+        
+    3. Video:
+        ### The directory structure is:
+        ---------------------------------
+            ```
+            ├── publlic/
+                └── video/
+                    └── iot.mp4
+                    ....
+            ```
+        ---------------------------------
+        
+    4. Template:
+        ### The code to put it in is:
+        ---------------------------------
+            ```
+            <div class="col-lg-12 order-lg-2 order-1 margin-10">
+                <div class="card text-center">
+                    <h4 class="mb-10 margin-10">{{ trans('projects.proj4') }}</h4>
+                    <img src="{{ URL::asset('projects/4.png') }}" class="img-center" style="width: 50%;">
+                    <p class="mb-40">{{ trans('projects.technical-data') }}:</p>
+                    <p class="mb-40 text-left">{!! nl2br(trans('projects.proj4-tech-data')) !!}</p>
+                </div>
+            </div>
+            ```
+            
+            ```
+            ├── resources/
+                └── views/
+                    └── frontend/
+                        └── projects.blade.php
+            ```
+        ---------------------------------
+        
     
-
-
 That's it :)
 
 
