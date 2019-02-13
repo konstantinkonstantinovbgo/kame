@@ -21,7 +21,7 @@
     <section class="section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 order-2 order-lg-1">
+                <div class="col-lg-12 order-2 order-lg-1 font-size-20">
                     <h5 class="section-title-sm">{{ trans('messages.know-about') }}</h5>
                     <h2 class="section-title section-title-border-half">{{ trans('messages.our-philosophy') }}</h2>
                     @for ($i = 1; $i <= 20; $i++)
