@@ -1,8 +1,6 @@
 <?php
 
 return [
-    'projects'                 => 'Projects',
-    'home'                     => 'Home',
     'proj1'                    => 'Semi Automated assembly line',
     'proj1-tech-data'          => '
     - Two Timing belt driven Conveyors with high rpm Spindles ( X, Y and Z motion ) -fully automated 

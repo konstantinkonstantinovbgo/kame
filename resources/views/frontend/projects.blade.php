@@ -5,12 +5,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-white font-weight-bold">{{ trans('messages.projects') }}</h2>
+                    <h2 class="text-white font-weight-bold">{{ trans('messages.menu.projects') }}</h2>
                     <ol class="breadcrumb">
                         <li>
-                            <a href="{{ route('home') }}">{{ trans('messages.home') }}</a>
+                            <a href="{{ route('home') }}">{{ trans('messages.menu.home') }}</a>
                         </li>
-                        <li>{{ trans('messages.projects') }}</li>
+                        <li>{{ trans('messages.menu.projects') }}</li>
                     </ol>
                 </div>
             </div>
