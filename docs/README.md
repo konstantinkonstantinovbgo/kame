@@ -4,11 +4,11 @@ I. Server Requirements
 1. PHP >= 7.2, PDO PHP Extension, JSON PHP Extension. https://laravel.com/docs/5.7/installation
 2. MySQL - 5.7
 3. Apache - 2.4
-3. Composer
+3. Composer = Use it: php composer.phar
 
 II. Project installation:
 
-1. Clone the project from Git: `https://github.com/konstantinkonstantinovbgo/kame` 
+1. Clone the project from Git: `git clone https://github.com/konstantinkonstantinovbgo/kame` 
 2. Enter project root folder and execute `composer install` to install all needed dependencies.
 3. After finishing the installation process from composer you must enter your db credentials and other project specific parameters in `.env` file.
     ```
