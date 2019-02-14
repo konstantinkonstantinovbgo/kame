@@ -22,14 +22,12 @@
         {!! Form::label('en_title', 'title', array('class'=>'col-sm-2 control-label')) !!}
         <div class="col-sm-10">
             {!! Form::text('en_title', old('en_title',$project->translate('en')->title), array('class'=>'form-control')) !!}
-
         </div>
     </div>
     <div class="form-group">
         {!! Form::label('content', 'content', array('class'=>'col-sm-2 control-label')) !!}
         <div class="col-sm-10">
-            {!! Form::textarea('content', old('content',$project->content), array('class'=>'form-control ckeditor')) !!}
-
+            {!! Form::textarea('content', old('content',$project->content), array('class'=>'form-control')) !!}
         </div>
     </div>
     <div class="form-group">
@@ -77,7 +75,7 @@
     </div><div class="form-group">
         {!! Form::label('content', 'content', array('class'=>'col-sm-2 control-label')) !!}
         <div class="col-sm-10">
-            {!! Form::textarea('content', old('content',$project->content), array('class'=>'form-control ckeditor')) !!}
+            {!! Form::textarea('content', old('content',$project->content), array('class'=>'form-control')) !!}
 
         </div>
     </div><div class="form-group">
@@ -111,7 +109,7 @@
     </div><div class="form-group">
         {!! Form::label('content', 'content', array('class'=>'col-sm-2 control-label')) !!}
         <div class="col-sm-10">
-            {!! Form::textarea('content', old('content',$project->content), array('class'=>'form-control ckeditor')) !!}
+            {!! Form::textarea('content', old('content',$project->content), array('class'=>'form-control')) !!}
 
         </div>
     </div><div class="form-group">
