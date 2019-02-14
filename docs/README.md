@@ -4,7 +4,10 @@ I. Server Requirements
 1. PHP >= 7.2, PDO PHP Extension, JSON PHP Extension. https://laravel.com/docs/5.7/installation
 2. MySQL - 5.7
 3. Apache - 2.4
-3. Composer = Use it: php composer.phar
+3. Composer 
+    Use it: php composer.phar
+    OR 
+    /usr/local/php72/bin/php-cli composer.phar install
 
 II. Project installation:
 
@@ -20,7 +23,6 @@ II. Project installation:
     ```
 4. Execute `php artisan key:generate` to generate a New Application Key.
 5. Execute `php artisan migrate` to generate a migration.
-6. Execute `php artisan storage:link` to make 'storage/app/public' accessible from the web. It creates symbolic link.
 
 Serving Laravel
 Artisan command: `php artisan serve` or you can do virtual host like mysite.dev.
