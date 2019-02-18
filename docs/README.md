@@ -94,7 +94,15 @@ III. Projects page - structure:
             ```
         ---------------------------------
         
-    
+    3. Video:
+         ### The directory structure is:
+         ---------------------------------
+             ```
+             ├── config/
+                 └── emails
+             ```
+         ---------------------------------   
+        
 That's it :)
 
 

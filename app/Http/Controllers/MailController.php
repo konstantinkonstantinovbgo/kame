@@ -15,8 +15,6 @@ class MailController extends Controller
     {
         Log::info($request->all());
 
-        $user = User::findOrFail(2);
-
 //        You can also use Sendmail as a transport:
 //        $transport = new Swift_SendmailTransport('/usr/sbin/sendmail -bs');
         $transport = (new Swift_SmtpTransport('mail.kameengineering.com', 26))
@@ -32,46 +30,26 @@ class MailController extends Controller
             ]
         );
 
-        // Create the message
-        $message = (new Swift_Message())
-            // Give the message a subject
-            ->setSubject($request->get('subject'))
-            // Set the From address with an associative array
-            ->setFrom([$request->get('email') => $request->get('name')])
-            // Set the To addresses with an associative array (setTo/setCc/setBcc)
-            ->setTo([$user->email => $user->name])
-            // Give it a body
-            ->setBody($body, 'text/html');
-
-        $messageTest = (new Swift_Message())
-            // Give the message a subject
-            ->setSubject($request->get('subject'))
-            // Set the From address with an associative array
-            ->setFrom([$request->get('email') => $request->get('name')])
-            // Set the To addresses with an associative array (setTo/setCc/setBcc)
-            ->setTo(['keywebdesign@gmail.com' => $user->name])
-            // Give it a body
-            ->setBody($body, 'text/html');
-
-        $messageTest2 = (new Swift_Message())
-            // Give the message a subject
-            ->setSubject($request->get('subject'))
-            // Set the From address with an associative array
-            ->setFrom([$request->get('email') => $request->get('name')])
-            // Set the To addresses with an associative array (setTo/setCc/setBcc)
-            ->setTo(['thedevman@mail.bg' => $user->name])
-            // Give it a body
-            ->setBody($body, 'text/html');
-
 //        $locale = \App::getLocale();
 
         $status = 'success';
         $text   = trans('messages.thanks-for-contacting-us');
 
         try {
-            $mailer->send($message);
-            $mailer->send($messageTest);
-            $mailer->send($messageTest2);
+            $emails = config('emails');
+            foreach($emails as $email => $name) {
+                // Create the message
+                $message = (new Swift_Message())
+                    // Give the message a subject
+                    ->setSubject($request->get('subject'))
+                    // Set the From address with an associative array
+                    ->setFrom([$request->get('email') => $request->get('name')])
+                    // Set the To addresses with an associative array (setTo/setCc/setBcc)
+                    ->setTo([$email => $name])
+                    // Give it a body
+                    ->setBody($body, 'text/html');
+                $mailer->send($message);
+            }
         } catch (\Exception $e) {
             Log::stack(['daily', 'slack'])->error($e->getMessage());
             $status = 'error';
