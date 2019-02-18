@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 offset-lg-1 col-md-5">
-                    <h2 class="section-title">Contact Us</h2>
+                    <h2 class="section-title">{{ trans('messages.contact-us') }}</h2>
                     <ul class="pl-0">
                         <!-- contact items -->
                         <li class="d-flex mb-30">
@@ -43,9 +43,9 @@
                         <li class="d-flex mb-30">
                             <i class="round-icon mr-3 ti-map-alt"></i>
                             <div class="align-self-center font-primary">
-                                <p>OFFICE bul. Ruski 46 fl.2 of. 1 Plovdiv 4002 </p>
-                                <p>PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA 15</p>
-                                <p>BULGARIA</p>
+                                <p>{{ trans('messages.office-address') }}</p>
+                                <p>{{ trans('messages.production-address') }}</p>
+                                <p>{{ trans('messages.country') }}</p>
                             </div>
                         </li>
                     </ul>
@@ -66,24 +66,25 @@
                                     <li>{!! \Session::get('error') !!}</li>
                                 </ul>
                             </div>
+                        @else
+                            {!! Form::open(['url' => route('send-email'), 'class' => 'row']) !!}
+                            <div class="col-lg-12">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="{{ trans('messages.name') }}" required>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="{{ trans('messages.contact-us') }}" required>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="text" name="subject" id="subject" class="form-control" placeholder="{{ trans('messages.subject') }}" required>
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea class="form-control p-2" name="message" id="message" placeholder="{{ trans('messages.your-message') }}" required style="height: 200px;"></textarea>
+                            </div>
+                            <div class="col-lg-12">
+                                <button class="btn btn-primary" type="submit" value="send">{{ trans('messages.submit-now') }}</button>
+                            </div>
+                            {!! Form::close() !!}
                         @endif
-                        {!! Form::open(['url' => route('send-email'), 'class' => 'row']) !!}
-                        <div class="col-lg-12">
-                            <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
-                        </div>
-                        <div class="col-lg-12">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
-                        </div>
-                        <div class="col-lg-12">
-                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
-                        </div>
-                        <div class="col-lg-12">
-                            <textarea class="form-control p-2" name="message" id="message" placeholder="Your Message Here..." required style="height: 200px;"></textarea>
-                        </div>
-                        <div class="col-lg-12">
-                            <button class="btn btn-primary" type="submit" value="send">Submit Now</button>
-                        </div>
-                        {!! Form::close() !!}
                     </div>
                 </div>
             </div>
