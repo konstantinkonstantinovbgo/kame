@@ -30,8 +30,6 @@ class MailController extends Controller
             ]
         );
 
-//        $locale = \App::getLocale();
-
         $status = 'success';
         $text   = trans('messages.thanks-for-contacting-us');
 

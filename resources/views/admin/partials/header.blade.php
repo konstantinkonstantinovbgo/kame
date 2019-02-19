@@ -14,6 +14,8 @@
     <meta http-equiv="Content-type"
           content="text/html; charset=utf-8">
 
+    <meta name="description" content="Engineering, Automation, Industry 4.0, Mechanical engineering, Robotics, Robots, Manipulators, Outsourcing" />
+
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all"
           rel="stylesheet"
           type="text/css"/>
