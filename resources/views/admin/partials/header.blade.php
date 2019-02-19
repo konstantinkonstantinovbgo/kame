@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-        {{ trans('quickadmin::admin.partials-header-title') }}
+        123{{ trans('quickadmin::admin.partials-header-title') }}
     </title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
