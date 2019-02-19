@@ -3,9 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>
-        123{{ trans('quickadmin::admin.partials-header-title') }}
-    </title>
+    <title>{{ trans('quickadmin::admin.partials-header-title') }}</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0"  name="viewport"/>
