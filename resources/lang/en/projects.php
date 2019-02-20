@@ -4,7 +4,7 @@ return [
     'proj1'                    => 'Semi Automated assembly line',
     'proj1-tech-data'          => '
     - Two Timing belt driven Conveyors with high rpm Spindles ( X, Y and Z motion ) -fully automated 
-    - Four Vibro-feeders for plastic parts ( angles and caps ) -fully automated 
+    - Four Vibro-feeders for plastic parts ( angles and caps ) -fully automated Glass Bottle separating Conveyer
     - One Assembling pneumatic Table ( 1200 x 800 ) with vacuum Plate- semi automatic 
     - Five Belt Conveyors ( different length ) semi automatic 
 
@@ -20,12 +20,12 @@ return [
     ',
     //    'proj5'                    => 'Fully automatted Drilling and imbedding line',
     //    'proj6'                    => 'Gentry with Spindles',
-    'proj7'                    => 'Brown gas yelding system from Sea Water',
+    'proj7'                    => 'Brown gas yielding system from Sea Water',
     'proj7-tech-data'          => '', // wait text
-    'proj8'                    => 'Stainless steel Glass Botle Conveyer',
+    'proj8'                    => 'Stainless steel Glass Bottle Conveyer',
     'proj8-tech-data'          => 'Stainless steel belts, Linear speed from 50-250 mm/s, automatic leveling from 650-950mm',
     //    'proj9'                    => 'Custom Design Lift Platform',
-    'proj10'                   => 'Roller Conveyoring System',
+    'proj10'                   => 'Roller Conveyer System',
     'proj10-tech-data'         => '
         One 6.5m passive roller conveyer
         One 2m passive roller conveyer with mechanical hard stop

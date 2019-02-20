@@ -50,43 +50,43 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-6 col-md-7">
-                    <h2 class="section-title">Contact Form</h2>
-                    <!-- form -->
-                    <div class="rounded">
-                        @if (\Session::has('success'))
-                            <div class="alert alert-success">
-                                <ul>
-                                    <li>{!! \Session::get('success') !!}</li>
-                                </ul>
-                            </div>
-                        @elseif(\Session::has('error'))
-                            <div class="alert alert-error">
-                                <ul>
-                                    <li>{!! \Session::get('error') !!}</li>
-                                </ul>
-                            </div>
-                        @else
-                            {!! Form::open(['url' => route('send-email'), 'class' => 'row']) !!}
-                            <div class="col-lg-12">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="{{ trans('messages.name') }}" required>
-                            </div>
-                            <div class="col-lg-12">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="{{ trans('messages.email-address') }}" required>
-                            </div>
-                            <div class="col-lg-12">
-                                <input type="text" name="subject" id="subject" class="form-control" placeholder="{{ trans('messages.subject') }}" required>
-                            </div>
-                            <div class="col-lg-12">
-                                <textarea class="form-control p-2" name="message" id="message" placeholder="{{ trans('messages.your-message') }}" required style="height: 200px;"></textarea>
-                            </div>
-                            <div class="col-lg-12">
-                                <button class="btn btn-primary" type="submit" value="send">{{ trans('messages.submit-now') }}</button>
-                            </div>
-                            {!! Form::close() !!}
-                        @endif
-                    </div>
-                </div>
+                {{--<div class="col-lg-6 col-md-7">--}}
+                    {{--<h2 class="section-title">{{ trans('messages.contact-form') }}</h2>--}}
+                    {{--<!-- form -->--}}
+                    {{--<div class="rounded">--}}
+                        {{--@if (\Session::has('success'))--}}
+                            {{--<div class="alert alert-success">--}}
+                                {{--<ul>--}}
+                                    {{--<li>{!! \Session::get('success') !!}</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--@elseif(\Session::has('error'))--}}
+                            {{--<div class="alert alert-error">--}}
+                                {{--<ul>--}}
+                                    {{--<li>{!! \Session::get('error') !!}</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--@else--}}
+                            {{--{!! Form::open(['url' => route('send-email'), 'class' => 'row']) !!}--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<input type="text" name="name" id="name" class="form-control" placeholder="{{ trans('messages.name') }}" required>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<input type="email" class="form-control" name="email" id="email" placeholder="{{ trans('messages.email-address') }}" required>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<input type="text" name="subject" id="subject" class="form-control" placeholder="{{ trans('messages.subject') }}" required>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<textarea class="form-control p-2" name="message" id="message" placeholder="{{ trans('messages.your-message') }}" required style="height: 200px;"></textarea>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-lg-12">--}}
+                                {{--<button class="btn btn-primary" type="submit" value="send">{{ trans('messages.submit-now') }}</button>--}}
+                            {{--</div>--}}
+                            {{--{!! Form::close() !!}--}}
+                        {{--@endif--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             </div>
         </div>
     </section>
