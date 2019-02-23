@@ -75,8 +75,9 @@
     <script src="{{ URL::asset('js/mixitup.min.js') }}"></script>
 
     <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_API_KEY') }}"></script>
-    {{--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSW6hbQcwwdhGUIcEU6wtjy3MlmlQScFQ"></script>--}}
+    @if (Route::currentRouteName() === 'contact')
+        <script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_API_KEY') }}"></script>
+    @endif
     <script src="{{ URL::asset('js/gmap.js') }}"></script>
 
     <!-- Syo Timer -->
