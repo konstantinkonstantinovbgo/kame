@@ -77,8 +77,8 @@
     <!-- Google Map -->
     @if (Route::currentRouteName() === 'contact')
         <script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_API_KEY') }}"></script>
+        <script src="{{ URL::asset('js/gmap.js') }}"></script>
     @endif
-    <script src="{{ URL::asset('js/gmap.js') }}"></script>
 
     <!-- Syo Timer -->
     <script src="{{ URL::asset('js/jquery.syotimer.js') }}"></script>
