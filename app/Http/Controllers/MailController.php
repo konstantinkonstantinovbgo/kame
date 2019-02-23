@@ -21,6 +21,8 @@ class MailController extends Controller
             ->setUsername(env('ICN_CPANEL_USERNAME'))
             ->setPassword(env('ICN_CPANEL_PASSWORD'));
 
+        dd(env('ICN_CPANEL_USERNAME'));
+
         // Create the Mailer using your created Transport
         $mailer = new Swift_Mailer($transport);
 

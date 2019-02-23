@@ -51,7 +51,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-7">
-                    <h2 class="section-title">Contact Form</h2>
+                    <h2 class="section-title">{{ trans('messages.contact-form') }}</h2>
                     <!-- form -->
                     <div class="rounded">
                         @if (\Session::has('success'))
@@ -72,7 +72,7 @@
                                 <input type="text" name="name" id="name" class="form-control" placeholder="{{ trans('messages.name') }}" required>
                             </div>
                             <div class="col-lg-12">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="{{ trans('messages.contact-us') }}" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="{{ trans('messages.email-address') }}" required>
                             </div>
                             <div class="col-lg-12">
                                 <input type="text" name="subject" id="subject" class="form-control" placeholder="{{ trans('messages.subject') }}" required>

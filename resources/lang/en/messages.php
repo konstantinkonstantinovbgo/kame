@@ -138,4 +138,5 @@ Outsourcing mechanical engineering requirements allows companies to stay competi
     'office-address'     => 'OFFICE bul. Ruski 46 fl.2 of. 1 Plovdiv 4002',
     'production-address' => 'PRODUCTION : BRESTNIK VILLAGE UL. TRAKIA 15',
     'country'            => 'BULGARIA',
+    'contact-form'       => 'Contact Us',
 ];
