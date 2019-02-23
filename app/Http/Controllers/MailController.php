@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\User;
+//use App\User;
 use Swift_Message;
 use Swift_Mailer;
 use Swift_SmtpTransport;
@@ -20,6 +20,8 @@ class MailController extends Controller
         $transport = (new Swift_SmtpTransport('mail.kameengineering.com', 26))
             ->setUsername(env('ICN_CPANEL_USERNAME'))
             ->setPassword(env('ICN_CPANEL_PASSWORD'));
+
+        dd(env('ICN_CPANEL_USERNAME'));
 
         // Create the Mailer using your created Transport
         $mailer = new Swift_Mailer($transport);
