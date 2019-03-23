@@ -38,4 +38,22 @@
         </div>
     </section>
     <!-- /philosophy -->
+
+    <!-- certificate -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 font-size-20">
+                    <a
+                       title="View certificate"
+                       href="{{ URL::asset('certificates/Certificate_KAME_INJ_QMS.pdf') }}"
+                       target="_blank"
+                       class="text-center d-block outline-0 py-3 px-2">
+                        {{ trans('messages.get-our-certificate') }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /certificate -->
 @endsection
