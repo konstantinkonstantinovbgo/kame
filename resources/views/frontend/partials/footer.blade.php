@@ -23,6 +23,9 @@
             <a href="#" class="text-center d-block outline-0 py-3 px-2">
                 <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-7.png') }}" alt="client-logo">
             </a>
+            <a href="#" class="text-center d-block outline-0 py-3 px-2">
+                <img class="d-unset" src="{{ URL::asset('images/clients/client-logo-10.png') }}" alt="client-logo">
+            </a>
         </div>
     </div>
 </section>
