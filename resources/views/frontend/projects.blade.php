@@ -69,14 +69,14 @@
                     </div>
                 </div>
 
-                <div class="col-lg-12 order-lg-2 order-1 margin-10">
-                    <div class="card text-center">
-                        <h4 class="mb-10 margin-10">{{ trans('projects.proj7') }}</h4>
-                        <img src="{{ URL::asset('projects/7.png') }}" class="img-center" style="width: 50%;">
-                        <p class="mb-40">{{ trans('projects.technical-data') }}:</p>
-                        <p class="mb-40 text-left">{{ trans('projects.proj7-tech-data') }}</p>
-                    </div>
-                </div>
+{{--                <div class="col-lg-12 order-lg-2 order-1 margin-10">--}}
+{{--                    <div class="card text-center">--}}
+{{--                        <h4 class="mb-10 margin-10">{{ trans('projects.proj7') }}</h4>--}}
+{{--                        <img src="{{ URL::asset('projects/7.png') }}" class="img-center" style="width: 50%;">--}}
+{{--                        <p class="mb-40">{{ trans('projects.technical-data') }}:</p>--}}
+{{--                        <p class="mb-40 text-left">{{ trans('projects.proj7-tech-data') }}</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
                 <div class="col-lg-12 order-lg-2 order-1 margin-10">
                     <div class="card text-center">
